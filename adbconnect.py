@@ -6,6 +6,25 @@ from uiautomator import Device
 import time
 import psutil
 import re
+import platform
+import logging
+
+
+import sys
+# 获取当前文件所在目录的绝对路径
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 获取 mobileperf-master 目录的路径
+mobileperf_dir = os.path.join(base_dir, 'mobileperf-master')
+
+# 添加 mobileperf-master 目录到 sys.path
+sys.path.append(mobileperf_dir)
+
+# 导入 DB_utils.py 中的某个函数
+from mobileperf.android.DB_utils import DatabaseOperations
+
+
+
 
 def sanitize_device_id(device_id):
     # 将无效字符替换为下划线
@@ -13,7 +32,11 @@ def sanitize_device_id(device_id):
     return sanitized_id
 
 def run_command_in_directory(command, directory):
-    subprocess.run(f"cd {directory} && {command}", shell=True)
+    subprocess.run(command, cwd=directory, shell=True)
+
+# 检测操作系统类型
+is_windows = os.name == 'nt'
+is_mac = platform.system() == 'Darwin'
 
 # 创建一个线程列表用于存储每个sh文件的执行线程
 threads = []
@@ -30,6 +53,9 @@ device_count = len(device_lines)
 base_path = os.path.dirname(os.path.abspath(__file__))
 
 source_mobileperf_folder = os.path.join(base_path, "mobileperf-master")  # 源MobilePerf文件夹路径
+
+
+
 #print(source_mobileperf_folder)
 
 # 遍历每个设备并执行相应操作
@@ -67,18 +93,57 @@ for device_line in device_lines:
         # time.sleep(2)  # 增加一些延迟以等待界面加载完成
         # # 将mtklog退到后台
         # subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
-
         # 执行run.sh文件（假设run.sh位于MobilePerf目录中）
+
+
+
         sh_directory = os.path.join(base_path, "R", f"_{target_device_id}")
-        #print(sh_directory)
-        sh_file = f"run.sh"
+        if is_windows:
+            sh_file = "run.bat"
+            command = sh_file
+        else:
+            sh_file = "run.sh"
+            command = f"sh {sh_file}"
         # 创建并启动一个新的线程来执行命令
-        thread = threading.Thread(target=run_command_in_directory, args=(f"sh {sh_file}", sh_directory))
+        thread = threading.Thread(target=run_command_in_directory, args=(command, sh_directory))
         threads.append(thread)
         thread.start()
 
+        # # 执行fps_run.py文件，并将设备ID作为参数传递
+        # py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "cpu_top.py")
+        # # 创建并启动一个新的线程来执行命令
+        # thread_py = threading.Thread(target=run_command_in_directory,
+        #                              args=(f"python {py_file} {device_id}", sh_directory))
+        # threads.append(thread_py)
+        # thread_py.start()
+
+        #SQL操作，无需sql操作，请注释了
+        # if device_id.startswith("S30"):
+        #     # 处理S30设备
+        #     device_name = "S30"
+        # elif device_id.startswith("Q20"):
+        #     # 处理Q20设备
+        #     device_name = "Q20"
+        # else:
+        #     # 其他设备处理
+        #     device_name = "未知"
+        #
+        # #向数据库插入devices基本信息
+        # # 将CPU数据插入数据库
+        # # 实例化数据库连接
+        # db_operations = DatabaseOperations()
+        # try:
+        #     db_operations.devices_info_insert(device_id, device_name)
+        #
+        # except Exception as db_e:
+        #     print(db_e)
+        #     print("devices_info插入数据库失败！！")
+
+
+
         # 执行fps_run.py文件，并将设备ID作为参数传递
         py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "fps_run.py")
+        py_file = py_file.replace('\r', '')  # 移除路径中的回车符
         # 创建并启动一个新的线程来执行命令
         thread_py = threading.Thread(target=run_command_in_directory, args=(f"python {py_file} {device_id}", sh_directory))
         threads.append(thread_py)
