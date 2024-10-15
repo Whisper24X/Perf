@@ -1,0 +1,5 @@
+datetime,device_cpu_rate%,user%,system%,idle%,package,pid,pid_cpu%
+2024-10-14 17-57-30,525,232,293,271,com.yangcong345.android.phone,3940,42.8
+2024-10-14 17-57-36,200,81,119,593,com.yangcong345.android.phone,3940,0.0
+2024-10-14 17-57-42,245,129,116,535,com.yangcong345.android.phone,3940,0.0
+2024-10-14 17-57-48,83,31,52,717,com.yangcong345.android.phone,3940,20.6

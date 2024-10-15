@@ -1,0 +1,5 @@
+datetime,device_total(KB),device_receive(KB),device_transport(KB),package,pid,pid_rx(KB),pid_tx(KB),pid_total(KB)
+2024-10-14 17-57-30,0.0,0.0,0.0,com.yangcong345.android.phone,3940,0.0,0.0,0.0
+2024-10-14 17-57-35,60.55,51.07,9.49,com.yangcong345.android.phone,3940,48.21,9.43,57.65
+2024-10-14 17-57-40,101.14,91.66,9.49,com.yangcong345.android.phone,3940,91.23,9.43,100.67
+2024-10-14 17-57-45,145.75,136.2,9.55,com.yangcong345.android.phone,3940,133.45,9.6,143.05

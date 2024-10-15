@@ -1,0 +1,2 @@
+datatime,total_ram(MB),free_ram(MB),package,pid,pid_pss(MB)
+2024-10-14 17-57-30,5936.4,3735.06,com.yangcong345.android.phone,3940,273.74
