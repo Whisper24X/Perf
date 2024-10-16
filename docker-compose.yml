@@ -2,22 +2,22 @@ networks:
   perf:
     driver: bridge  # 定义 perf 网络
 services:
-#  postgresql:
-#    image: postgres:14.5
-#    container_name: postgresql
-#    restart: always
-#    environment:
-#      TZ: Asia/Shanghai
-#      LANG: en_US.UTF-8
-#      POSTGRES_DB: postgres
-#      POSTGRES_USER: postgres
-#      POSTGRES_PASSWORD: 123456
-#    volumes:
-#      - "./docker/postgresql/data:/var/lib/postgresql/data"
-#    ports:
-#      - "5432:5432"
-#    networks:
-#      - perf  # 使用 perf 网络
+  postgresql:
+    image: postgres:14.5
+    container_name: postgresql
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    volumes:
+      - "./docker/postgresql/data:/var/lib/postgresql/data"
+    ports:
+      - "5432:5432"
+    networks:
+      - perf  # 使用 perf 网络
   frontend:
     image: nginx:1.21.3
     container_name: frontend
@@ -40,14 +40,14 @@ services:
       - ./mobileperf-master/mobileperf:/app/mobileperf  # 挂载后端服务目录
     ports:
       - "5500:5500"
-#    environment:
-#      - FLASK_ENV=development
-#      - POSTGRES_USER=postgres
-#      - POSTGRES_PASSWORD=123456
-#      - POSTGRES_DB=postgres
-#      - POSTGRES_HOST=postgresql  # 数据库服务名称
-#    depends_on:
-#      - postgresql
+    environment:
+      - FLASK_ENV=development
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=postgres
+      - POSTGRES_HOST=postgresql  # 数据库服务名称
+    depends_on:
+      - postgresql
     networks:
       - perf  # 使用 perf 网络
   adb_service:

@@ -14,22 +14,29 @@ class DatabaseOperations:
     #         'port': os.getenv('DB_PORT')
     #     }
     def __init__(self):
-        self.db_config = self.read_config()
-
-    def read_config(self):
-        # 获取项目根目录路径
-        project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        config_path = os.path.join(project_root, 'config.ini')
-        # print(config_path)
-        config = configparser.ConfigParser()
-        config.read(config_path)
-        return {
-            'db': config['database']['db_name'],
-            'user': config['database']['db_user'],
-            'password': config['database']['db_password'],
-            'host': config['database']['db_host'],
-            'port': config['database']['db_port']
+        self.db_config = {
+            'db': os.getenv('POSTGRES_DB', 'postgres'),  # Use POSTGRES_DB from docker-compose.yml
+            'user': os.getenv('POSTGRES_USER', 'postgres'),  # Use POSTGRES_USER from docker-compose.yml
+            'password': os.getenv('POSTGRES_PASSWORD', '123456'),  # Use POSTGRES_PASSWORD from docker-compose.yml
+            'host': os.getenv('POSTGRES_HOST', 'postgresql'),  # Use POSTGRES_HOST from docker-compose.yml
+            'port': os.getenv('DB_PORT', '5432')  # Default PostgreSQL port
         }
+    #    self.db_config = self.read_config()
+
+    # def read_config(self):
+    #     # 获取项目根目录路径
+    #     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    #     config_path = os.path.join(project_root, 'config.ini')
+    #     # print(config_path)
+    #     config = configparser.ConfigParser()
+    #     config.read(config_path)
+    #     return {
+    #         'db': config['database']['db_name'],
+    #         'user': config['database']['db_user'],
+    #         'password': config['database']['db_password'],
+    #         'host': config['database']['db_host'],
+    #         'port': config['database']['db_port']
+    #     }
 
     def connect(self):
         try:
@@ -407,3 +414,10 @@ class DatabaseOperations:
 # ids = '18'
 # d = db_operations.get_cpu_info(device_id,ids)
 # print(d)
+# if __name__ == "__main__":
+#     db_ops = DatabaseOperations()
+#     connection = db_ops.connect()
+#     if connection:
+#         print("Database connected successfully!")
+#     else:
+#         print("Failed to connect to the database.")

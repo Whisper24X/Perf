@@ -20,6 +20,7 @@ def add_headers(response):
 @app.route('/latest_ids', methods=['GET'])
 def get_devices():
     devices = db_operations.get_all_devices()
+    #print(devices)
     if devices:
         devices_sorted = sorted(devices, key=lambda x: x[3], reverse=True)
         devices_dict = [
@@ -99,4 +100,7 @@ def get_fps_info():
         return jsonify({"message": "未找到相关数据"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    #get_devices()
+    #app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5500)
+
