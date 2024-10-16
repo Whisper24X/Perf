@@ -15,9 +15,10 @@ import os,sys
 import threading
 import time
 import traceback
-
+from datetime import datetime
 from datetime import datetime
 
+from DB_utils import DatabaseOperations
 BaseDir=os.path.dirname(__file__)
 sys.path.append(os.path.join(BaseDir,'../..'))
 
@@ -265,6 +266,7 @@ class CpuCollector(object):
             self.top_cmd = 'top -n 1 -d %d' % self._interval
         logger.debug("sdk version : " +str(self.sdkversion))
 
+
     def get_sdkversion(self):
         sdk = self.device.adb.get_sdk_version()
         if sdk == None:
@@ -326,6 +328,7 @@ class CpuCollector(object):
         按照指定频率，循环搜集cpu的信息
         :return:
         '''
+        #print(self.device.device_id)
         end_time = time.time() + self._timeout
         cpu_title = ["datetime", "device_cpu_rate%", "user%", "system%","idle%"]
         cpu_file = os.path.join(RuntimeData.package_save_path, 'cpuinfo.csv')
@@ -338,6 +341,9 @@ class CpuCollector(object):
                 csv.writer(df, lineterminator='\n').writerow(cpu_title)
         except RuntimeError as e:
             logger.error(e)
+
+
+
         while not self._stop_event.is_set() and time.time() < end_time:
             try:
                 logger.debug("---------------cpuinfos, into _collect_package_cpu_thread loop thread is : " + str(threading.current_thread().name))
@@ -359,11 +365,35 @@ class CpuCollector(object):
                 #校准时间，由于top执行需要耗时，需要将这个损耗加上去
                 logger.debug("INFO: CpuMonitor save cpu_device_list: " + str(self.cpu_list))
                 try:
-                    with open(cpu_file, 'a+',encoding="utf-8") as df:
+                    with open(cpu_file, 'a+', encoding="utf-8") as df:
                         csv.writer(df, lineterminator='\n').writerow(self.cpu_list)
                         del self.cpu_list[:]
                 except RuntimeError as e:
                     logger.error(e)
+
+                # 将CPU数据插入数据库
+                try:
+                    # 数据库连接实例化
+                    db_operations = DatabaseOperations()
+                    # 查询新ids，用于区分新老数据
+                    latest_ids = db_operations.get_latest_ids(self.device.get_device_id())
+                    for package_info in cpu_info.package_list:
+                        cpu_data = (
+                            self.device.get_device_id(),
+                            datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                            cpu_info.device_cpu_rate,
+                            cpu_info.user_rate,
+                            cpu_info.system_rate,
+                            cpu_info.idle_rate,
+                            package_info["package"],
+                            package_info["pid"],
+                            package_info["pid_cpu"],
+                            latest_ids
+                        )
+                        #print( self.device.device_id+"-----------------------------------------------------------------------------------")
+                        db_operations.CPU_info_insert(cpu_data)
+                except Exception as db_e:
+                    logger.error(f"Failed to insert CPU data into database: {db_e}")
 
                 # self.get_max_freq()
                 delta_inter = self._interval - time_consume
@@ -384,10 +414,12 @@ class CpuMonitor(object):
     '''
     def __init__(self, device_id, packages, interval=5,timeout=24 * 60 * 60):
         self.device = AndroidDevice(device_id)
+        #print(f"Device ID in CpuMonitor constructor: {self.device.device_id}")
         self.packages = packages
         self.cpu_collector = CpuCollector(self.device, packages, interval,timeout)
 
     def start(self,start_time):
+        #print(f"Starting CpuMonitor with device ID: {self.device.device_id}")
         '''
         启动一个cpu监控器，监控cpu信息
         :return:
@@ -411,11 +443,11 @@ class CpuMonitor(object):
         pass
 
 
-if __name__ == "__main__":
-    # RuntimeData.package_save_path = "/Users/look/Desktop/project/mobileperf-mac/results/com.yunos.tv.alitvasr/2019_03_25_22_07_57/"
-    # monitor = CpuMonitor("O77DFAWSSGV4Z5AU", ["com.yunos.tv.alitvasr", "com.alibaba.ailabs.genie.contacts"], 5)
-    # monitor = CpuMonitor("O77DFAWSSGV4Z5AU", ["com.yunos.tv.alitvasr"], 5)
-    monitor = CpuMonitor("85I7UO4PFQCINJL7",["com.yunos.tv.alitvasr"], 5)
-    monitor.start(TimeUtils.getCurrentTimeUnderline())
-    time.sleep(180)
-    monitor.stop()
+# if __name__ == "__main__":
+#     # RuntimeData.package_save_path = "/Users/look/Desktop/project/mobileperf-mac/results/com.yunos.tv.alitvasr/2019_03_25_22_07_57/"
+#     # monitor = CpuMonitor("O77DFAWSSGV4Z5AU", ["com.yunos.tv.alitvasr", "com.alibaba.ailabs.genie.contacts"], 5)
+#     # monitor = CpuMonitor("O77DFAWSSGV4Z5AU", ["com.yunos.tv.alitvasr"], 5)
+#     monitor = CpuMonitor("85I7UO4PFQCINJL7",["com.yunos.tv.alitvasr"], 5)
+#     monitor.start(TimeUtils.getCurrentTimeUnderline())
+#     time.sleep(180)
+#     monitor.stop()

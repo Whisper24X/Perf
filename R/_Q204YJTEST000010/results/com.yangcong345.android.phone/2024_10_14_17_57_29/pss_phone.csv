@@ -1,0 +1,4 @@
+datatime,package,pid,pss,java_heap,native_heap,system
+2024-10-14 17-57-30,com.yangcong345.android.phone,3940,156.83,29.96,13.51,7.47
+2024-10-14 17-57-43,com.yangcong345.android.phone,3940,146.42,15.47,18.15,8.48
+2024-10-14 17-57-48,com.yangcong345.android.phone,3940,144.81,13.94,18.09,8.48

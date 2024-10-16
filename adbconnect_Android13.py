@@ -6,6 +6,7 @@ from uiautomator import Device
 import time
 import psutil
 import re
+import platform
 
 def sanitize_device_id(device_id):
     # 将无效字符替换为下划线
@@ -13,7 +14,11 @@ def sanitize_device_id(device_id):
     return sanitized_id
 
 def run_command_in_directory(command, directory):
-    subprocess.run(f"cd {directory} && {command}", shell=True)
+    subprocess.run(command, cwd=directory, shell=True)
+
+# 检测操作系统类型
+is_windows = os.name == 'nt'
+is_mac = platform.system() == 'Darwin'
 
 # 创建一个线程列表用于存储每个sh文件的执行线程
 threads = []
@@ -67,13 +72,16 @@ for device_line in device_lines:
         # time.sleep(2)  # 增加一些延迟以等待界面加载完成
         # # 将mtklog退到后台
         # subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
-
         # 执行run.sh文件（假设run.sh位于MobilePerf目录中）
         sh_directory = os.path.join(base_path, "R", f"_{target_device_id}")
-        #print(sh_directory)
-        sh_file = f"run.sh"
+        if is_windows:
+            sh_file = "run.bat"
+            command = sh_file
+        else:
+            sh_file = "run.sh"
+            command = f"sh {sh_file}"
         # 创建并启动一个新的线程来执行命令
-        thread = threading.Thread(target=run_command_in_directory, args=(f"sh {sh_file}", sh_directory))
+        thread = threading.Thread(target=run_command_in_directory, args=(command, sh_directory))
         threads.append(thread)
         thread.start()
 

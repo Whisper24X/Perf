@@ -12,6 +12,14 @@ class FpsListenserImpl(IFpsListener):
             path = os.path.dirname(path)
         return path
 
+    def identify_directory_name(self, base_dir):
+        # 遍历self.package目录下的所有子目录
+        for dir_name in os.listdir(base_dir):
+            dir_path = os.path.join(base_dir, dir_name)
+            if os.path.isdir(dir_path):  # 确保是目录
+                return dir_name  # 识别第一个目录名称并返回
+        return None
+
     def report_fps_info(self, fps_info, devices):
         print('\n')
         print("当前设备是：" + devices)
@@ -32,8 +40,17 @@ class FpsListenserImpl(IFpsListener):
         source_mobileperf_folder = os.path.join(target_dir)  # 源MobilePerf文件夹路径
 
         target_device_id = devices.replace(':', '_').replace('.', '_')
-        file_path = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", f"{str(fps_info.pkg_name)}", "fps_data.csv")
+        # 构建self.package目录路径
+        package_dir = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", self.package)
+        identified_dir_name = self.identify_directory_name(package_dir)  # 识别子目录名称
 
+        if identified_dir_name:
+            # 使用识别到的目录名称构建文件路径
+            file_path = os.path.join(package_dir, identified_dir_name, "fps_data.csv")
+            print(f"FPS Data File Path: {file_path}")
+        else:
+            print("未找到子目录")
+            return  # 未找到目录则停止执行
 
         #file_path = f"/Users/yangcong/PycharmProjects/Perf/R/_{target_device_id}/results/com.yangcong345.android.phone/fps_data.csv"
         # 检查文件是否存在，如果不存在则写入标题

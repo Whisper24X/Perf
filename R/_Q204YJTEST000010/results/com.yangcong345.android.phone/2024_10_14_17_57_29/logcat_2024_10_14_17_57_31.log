@@ -1,0 +1,1010 @@
+--------- beginning of main
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 请求链接：https://version-stage.yangcong345.com/version/check
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 请求方法：POST
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 请求头部：
+10-14 17:57:31.287  3940  4194 D OK-HTTP :
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 请求体：
+10-14 17:57:31.287  3940  4194 D OK-HTTP : {"category":"ycmath","channel":"guanghetv","platform":"android","version":"7.68.0"}
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 返回头部：
+10-14 17:57:31.287  3940  4194 D OK-HTTP : date: Mon, 14 Oct 2024 09:57:31 GMT
+10-14 17:57:31.287  3940  4194 D OK-HTTP : content-type: application/json; charset=utf-8
+10-14 17:57:31.287  3940  4194 D OK-HTTP : content-length: 453
+10-14 17:57:31.287  3940  4194 D OK-HTTP : access-control-allow-credentials: true
+10-14 17:57:31.287  3940  4194 D OK-HTTP : access-control-allow-headers: Authorization, Accept-Encoding, Cache-Control, Content-Type, Content-Length, Range, Referer, X-CSRF-Token, X-Requested-With,appid, accept, client-category, client-channel, client-identity, client-type, client-version, env, eventtime, eventTime, omvd, omvd, origin, params-style, source, timestamp, uid, userId, version, x-key, x-key-ignore
+10-14 17:57:31.287  3940  4194 D OK-HTTP : access-control-allow-methods: POST, OPTIONS, GET, PUT
+10-14 17:57:31.287  3940  4194 D OK-HTTP : access-control-allow-origin: *
+10-14 17:57:31.287  3940  4194 D OK-HTTP : access-control-expose-headers: params-style
+10-14 17:57:31.287  3940  4194 D OK-HTTP : strict-transport-security: max-age=15724800; includeSubDomains
+10-14 17:57:31.287  3940  4194 D OK-HTTP :
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 返回内容：
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 状态码：200，
+10-14 17:57:31.287  3940  4194 D OK-HTTP : 返回内容：{"id":"3aba3a2a-7268-4736-8dc8-2d921ef103f4","title":"","image":"","note":"","category":"ycmath","platform":"android","strategy":"common","update":true,"build":189,"version":"5.39.0","apkUrl":"https://mobile.content.yangcong345.com/ycmath-5.39.0-189-guanghetv-651e61ea91d34d405cd4b5241c16032369c5ca0e.apk","apkSize":"82.52MB","channel":"guanghetv","createdAt":"2020-11-04T14:53:11.345+08:00","updatedAt":"2020-11-04T14:53:11.345+08:00","deletedAt":null}
+10-14 17:57:31.287  3940  4194 D OK-HTTP :
+10-14 17:57:31.287  3940  4194 D CUSTOM_DNS: 耗时监测，url:https://version-stage.yangcong345.com/version/check,耗时：142
+--------- beginning of system
+10-14 17:57:31.328  1021  1021 W AccessibilityManagerService:  wait for adding window timeout: 26
+10-14 17:57:31.340  3085  3085 D onAccessibilityEvent111: EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 107377; PackageName: com.yangcong345.android.phone; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: android.widget.FrameLayout; Text: [应用图标]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: false; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+10-14 17:57:31.341  3085  3085 D onAccessibilityEvent122: source  null
+10-14 17:57:31.342   492   538 I Proximity: distance = 2
+10-14 17:57:31.343  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:31.390   715   750 D AAL     : 10-14 05:57:31.244 BL= 442,ESS= 256, 10-14 05:57:31.277 BL= 443,ESS= 256, 10-14 05:57:31.325 BL= 444,ESS= 256, 10-14 05:57:31.358 BL= 445,ESS= 256, 10-14 05:57:31.390 BL= 446,ESS= 256,
+10-14 17:57:31.404  1021  1163 D WindowManager: setParent old=ActivityRecord{c352b22 u0 com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity} t158 f}},new=null,this window=Window{3e29ee9 u0 Splash Screen com.yangcong345.android.phone},callers=com.android.server.wm.WindowContainer.removeChild:772 com.android.server.wm.ActivityRecord.removeChild:4272 com.android.server.wm.ActivityRecord.removeChild:380 com.android.server.wm.WindowContainer.removeImmediately:828 com.android.server.wm.WindowState.removeImmediately:2514 com.android.server.wm.WindowState.destroySurface:3615
+10-14 17:57:31.404  1021  1163 W InputManager-JNI: Input channel object '3e29ee9 Splash Screen com.yangcong345.android.phone (client)' was disposed without first being removed with the input manager!
+--------- beginning of events
+10-14 17:57:31.410  1021  1162 I wm_destroy_activity: [0,204811042,158,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity,finish-imm:idle]
+10-14 17:57:31.410  1021  1162 I PowerHalWrapper: amsBoostNotify pid:3940,activity:com.yangcong345.main.phone.splash.SplashActivity, package:com.yangcong345.android.phone, mProcessCreatePackcom.yangcong345.eye.protection
+10-14 17:57:31.410  1021  1162 I PowerHalWrapper: state: 0
+10-14 17:57:31.410  1021  1162 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity pid=3940 state:0
+10-14 17:57:31.410  1021  1162 I game_scn: collectForegroundAppList packName=com.yangcong345.android.phone, actName=com.yangcong345.main.phone.splash.SplashActivity, pid=3940, uid=10069, state:PAUSED
+10-14 17:57:31.410  1021  1162 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3178, packname: com.yangcong345.eye.protection, actname: com.yangcong345.eye.protection.pro.DetailMainActivity
+10-14 17:57:31.410  1021  1162 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+10-14 17:57:31.411   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.android.phone, act:com.yangcong345.main.phone.splash.SplashActivity, state:0, pid:3940, uid:10069, fps:-1
+10-14 17:57:31.412  3940  3940 V Activity: onDestroy com.yangcong345.main.phone.splash.SplashActivity@da3a728
+10-14 17:57:31.416  3940  3940 W 5.android.phone: Accessing hidden field Landroid/view/inputmethod/InputMethodManager;->mCurRootView:Landroid/view/ViewRootImpl; (blocked, reflection, denied)
+10-14 17:57:31.418  3940  3940 D ActivityLifecycleShanYanTask: onActivityDestroyed name**com.yangcong345.main.phone.splash.SplashActivity**
+10-14 17:57:31.418  3940  3940 D CrashReport: >>> com.yangcong345.main.phone.splash.SplashActivity onDestroyed <<<
+10-14 17:57:31.420  3940  3940 I wm_on_destroy_called: [204811042,com.yangcong345.main.phone.splash.SplashActivity,performDestroy]
+10-14 17:57:31.421  1021  3533 D WindowManager: setParent old=Task{527a3b8 #158 type=standard A=10069:com.yangcong345.android.phone U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0},new=null,this window=ActivityRecord{c352b22 u0 com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity} t158 f}},callers=com.android.server.wm.WindowContainer.removeChild:772 com.android.server.wm.TaskFragment.removeChild:2565 com.android.server.wm.Task.removeChild:1499 com.android.server.wm.Task.removeChild:1482 com.android.server.wm.WindowContainer.removeImmediately:828 com.android.server.wm.WindowToken.removeImmediately:350
+10-14 17:57:31.422  1021  3533 I wm_task_removed: [158,removeChild:removeChild last r=ActivityRecord{c352b22 u0 com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity} t-1 f}} in t=Task{527a3b8 #158 type=standard A=10069:com.yangcong345.android.phone U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}]
+10-14 17:57:31.422  1021  3533 I wm_task_removed: [158,removeChild]
+10-14 17:57:31.422  1021  5279 D libMEOW : meow new tls: 0xb40000700c4da160
+10-14 17:57:31.423  1021  5279 D libMEOW : applied 0 plugin for [system_server].
+10-14 17:57:31.423  1021  5279 D libMEOW : rebuild call chain: 0xb40000700c4ba140
+10-14 17:57:31.425  1021  3533 D WindowManager: setParent old=DefaultTaskDisplayArea@227847002,new=null,this window=Task{527a3b8 #158 type=standard A=10069:com.yangcong345.android.phone U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0},callers=com.android.server.wm.WindowContainer.removeChild:772 com.android.server.wm.TaskDisplayArea.removeChildTask:359 com.android.server.wm.TaskDisplayArea.removeChild:350 com.android.server.wm.WindowContainer.removeImmediately:828 com.android.server.wm.TaskFragment.removeImmediately:2645 com.android.server.wm.Task.removeImmediately:2587
+10-14 17:57:31.430   369   369 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+10-14 17:57:31.431  1021  5279 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+10-14 17:57:31.432  1021  5279 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-14 17:57:31.436  1021  5279 D skia    : GrGLMakeAssembledInterface verStr OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+10-14 17:57:31.436  1021  5279 D skia    : GrGLMakeAssembledGLESInterface verStr OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+10-14 17:57:31.436  1021  5279 D skia    : extensions init verString=OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+10-14 17:57:31.448  3178  4443 I .eye.protection: Explicit concurrent copying GC freed 17100(899KB) AllocSpace objects, 2(36KB) LOS objects, 49% free, 4940KB/9881KB, paused 58us,52us total 31.721ms
+10-14 17:57:31.449  3178  3212 I .eye.protection: WaitForGcToComplete blocked HeapTrim on Explicit for 15.515ms
+10-14 17:57:31.451  1021  5279 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-14 17:57:31.461  1021  5279 I mali    : [DebugProp] GPU Debug-Mechanism Disable !
+10-14 17:57:31.467   500   576 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:73
+10-14 17:57:31.467   500   576 I libPowerHal: [perfLockRel] hdl:73, idx:0
+10-14 17:57:31.467   500   576 I libPowerHal: MTKPOWER_HINT_PACK_SWITCH: cpu_ctrl set cpu freq: -1 -1 -1 -1
+10-14 17:57:31.467   500   576 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000, param:-1
+10-14 17:57:31.467   500   576 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:0
+10-14 17:57:31.468   500   576 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000 param:-1
+10-14 17:57:31.529  1021  5279 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 29, oppidx_max 29, oppidx_min 0
+10-14 17:57:31.540  1021  1190 I am_uid_idle: 10043
+10-14 17:57:31.546   492   538 I Proximity: distance = 2
+10-14 17:57:31.548  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:31.619   715   750 D AAL     : 10-14 05:57:31.422 BL= 447,ESS= 256, 10-14 05:57:31.471 BL= 448,ESS= 256, 10-14 05:57:31.503 BL= 449,ESS= 256, 10-14 05:57:31.537 BL= 448,ESS= 256, 10-14 05:57:31.619 BL= 449,ESS= 256,
+10-14 17:57:31.674   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:60.653103,dur:1005.72,max:32.30,min:11.40
+10-14 17:57:31.677  5215  5215 I auditd  : type=1400 audit(0.0:5432): avc: denied { read } for comm="commands.monkey" name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.677  5215  5215 I commands.monkey: type=1400 audit(0.0:5432): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.677  5215  5215 I auditd  : type=1400 audit(0.0:5433): avc: denied { open } for comm="commands.monkey" path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.677  5215  5215 I commands.monkey: type=1400 audit(0.0:5433): avc: denied { open } for path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.677  5215  5215 I auditd  : type=1400 audit(0.0:5434): avc: denied { getattr } for comm="commands.monkey" path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.677  5215  5215 I commands.monkey: type=1400 audit(0.0:5434): avc: denied { getattr } for path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.677  5215  5215 I auditd  : type=1400 audit(0.0:5435): avc: denied { map } for comm="commands.monkey" path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.677  5215  5215 I commands.monkey: type=1400 audit(0.0:5435): avc: denied { map } for path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=7449 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+10-14 17:57:31.681   715   750 D AAL     : 10-14 05:57:31.649 BL= 448,ESS= 256, 10-14 05:57:31.665 BL= 449,ESS= 256,
+10-14 17:57:31.685  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1116.0,724.0)
+10-14 17:57:31.688   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:75 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:75
+10-14 17:57:31.688   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:31.695  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1116.8796,703.9431)
+10-14 17:57:31.697   500   576 I libPowerHal: [perfLockRel] hdl:75, idx:0
+10-14 17:57:31.698   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:31.698  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:31.751   492   538 I Proximity: distance = 2
+10-14 17:57:31.753  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:31.769  1910  2245 D View    : [Warning] assignParent to null: this = android.widget.FrameLayout{8d4eb9c G.E...... ......ID 0,0-1200,1920}
+10-14 17:57:31.772  1021  3533 W WindowManager: Failed looking up window session=Session{f40a3b 1910:u0a10096} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6064 com.android.server.wm.WindowManagerService.relayoutWindow:2281 com.android.server.wm.Session.relayout:267
+10-14 17:57:31.774  1910  2245 D BLASTBufferQueue: [VRI[phone]#10](f:0,a:1) destructor()
+10-14 17:57:31.774  1910  2245 D BufferQueueConsumer: [VRI[phone]#10(BLAST Consumer)10](id:7760000000a,api:0,p:-1,c:1910) disconnect
+10-14 17:57:31.779  1021  3533 W WindowManager: Failed looking up window session=Session{f40a3b 1910:u0a10096} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6064 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:949 android.view.IWindowSession$Stub.onTransact:1209
+10-14 17:57:31.779  1021  3533 E WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+10-14 17:57:31.779  1021  3083 W WindowManager: Cannot find window which accessibility connection is added to
+10-14 17:57:31.781  1021  3083 W WindowManager: Failed looking up window session=Session{f40a3b 1910:u0a10096} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6064 com.android.server.wm.WindowManagerService.removeWindow:2075 com.android.server.wm.Session.remove:229
+10-14 17:57:31.782  1910  2245 D InputTransport: Destroy ARC handle: 0xb400006e2c3e3020
+10-14 17:57:31.783   510   510 I BufferQueueDebug: [Splash Screen com.yangcong345.android.phone#184](this:0xb400007b661f6668,id:-1,api:0,p:-1,c:510) onDestructor()
+10-14 17:57:31.819  1021  1190 I am_uid_idle: 2000
+10-14 17:57:31.845  3940  3940 I MMKV    : <MMKV.cpp:226::initializeMMKV> root dir: /data/user/0/com.yangcong345.android.phone/files/mmkv
+10-14 17:57:31.846  3940  3940 I MMKV    : <MemoryFile.cpp:97::open> open fd[0xed], /data/user/0/com.yangcong345.android.phone/files/mmkv/prefs_eye_protection
+10-14 17:57:31.847  3940  3940 I MMKV    : <MemoryFile.cpp:202::mmap> mmap to address [0x70b5008000], oldPtr [0x0], [/data/user/0/com.yangcong345.android.phone/files/mmkv/prefs_eye_protection]
+10-14 17:57:31.848  3940  3940 I MMKV    : <MemoryFile.cpp:97::open> open fd[0xee], /data/user/0/com.yangcong345.android.phone/files/mmkv/prefs_eye_protection.crc
+10-14 17:57:31.849  3940  3940 I MMKV    : <MemoryFile.cpp:202::mmap> mmap to address [0x70b26e1000], oldPtr [0x0], [/data/user/0/com.yangcong345.android.phone/files/mmkv/prefs_eye_protection.crc]
+10-14 17:57:31.856  3940  3940 I MMKV    : <MMKV_IO.cpp:80::loadFromFile> loading [prefs_eye_protection] with 0 actual size, file size 4096, InterProcess 0, meta info version:0
+10-14 17:57:31.856  3940  3940 I MMKV    : <MMKV_IO.cpp:129::loadFromFile> loaded [prefs_eye_protection] with 0 key-values
+10-14 17:57:31.944  1021  1070 I system_server: NativeAlloc concurrent copying GC freed 253119(11MB) AllocSpace objects, 20(400KB) LOS objects, 49% free, 16MB/33MB, paused 378us,280us total 345.950ms
+10-14 17:57:31.954   492   538 I Proximity: distance = 2
+10-14 17:57:31.957  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:31.959   500   565 I libPerfCtl: xgfGetFPS pid:1021 fps:-1
+10-14 17:57:31.959   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:64
+10-14 17:57:31.959   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:31.962  1021  1162 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+10-14 17:57:31.988  1021  1072 W System  : A resource failed to call release.
+10-14 17:57:31.998  1021  1072 W System  : A resource failed to call HardwareBuffer.close.
+10-14 17:57:32.000  1021  1072 W System  : A resource failed to call HardwareBuffer.close.
+10-14 17:57:32.007  1021  1190 I am_uid_idle: 10098
+10-14 17:57:32.015  1021  1072 W System  : A resource failed to call HardwareBuffer.close.
+10-14 17:57:32.016  1021  1072 W System  : A resource failed to call HardwareBuffer.close.
+10-14 17:57:32.025  1021  1072 W System  : A resource failed to call CursorWindow.close.
+10-14 17:57:32.026  1021  1072 W System  : A resource failed to call AbstractCursor.close.
+10-14 17:57:32.026  1021  1072 W System  : A resource failed to call CursorWindow.close.
+10-14 17:57:32.027  1021  1072 W System  : A resource failed to call AbstractCursor.close.
+10-14 17:57:32.027  1021  1072 W System  : A resource failed to call CursorWindow.close.
+10-14 17:57:32.027  1021  1072 W System  : A resource failed to call AbstractCursor.close.
+10-14 17:57:32.032  1021  1072 W System  : A resource failed to call HardwareBuffer.close.
+10-14 17:57:32.033  1021  1072 W System  : A resource failed to call HardwareBuffer.close.
+10-14 17:57:32.101  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(205.0,831.0)
+10-14 17:57:32.105   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:76 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:76
+10-14 17:57:32.106   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:32.106  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(197.0437,833.0098)
+10-14 17:57:32.108   500   576 I libPowerHal: [perfLockRel] hdl:76, idx:0
+10-14 17:57:32.108   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:32.110  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:32.158   492   538 I Proximity: distance = 2
+10-14 17:57:32.160  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:32.363   492   538 I Proximity: distance = 2
+10-14 17:57:32.365  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:32.567   492   538 I Proximity: distance = 2
+10-14 17:57:32.569  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:32.700  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(690.0,1179.0)
+10-14 17:57:32.704  5215  5215 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(677.43774,1181.5883)
+10-14 17:57:32.705   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:77 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:77
+10-14 17:57:32.706   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:32.707  5215  5215 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(662.41766,1181.6316)
+10-14 17:57:32.710  5215  5215 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(640.1749,1183.4142)
+10-14 17:57:32.712  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(625.79346,1187.2007)
+10-14 17:57:32.712  1021  3083 I input_cancel: [69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server),reason=input channel stole pointer stream]
+10-14 17:57:32.713  1021  3083 I input_cancel: [[Gesture Monitor] edge-swipe (server),reason=input channel stole pointer stream]
+10-14 17:57:32.713  1021  3083 I InputDispatcher: Channel [Gesture Monitor] swipe-up (server) is stealing touch from [69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), [Gesture Monitor] edge-swipe (server)]
+10-14 17:57:32.713  3178  3178 I view_enqueue_input_event: [Motion - Cancel,com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity]
+10-14 17:57:32.714  1021  3083 W ActivityTaskManager: zzg getRecentTasksImpl intentcmp=ComponentInfo{com.yangcong345.eye.protection/com.yangcong345.eye.protection.LauncherActivity}, intentDataStr=null
+10-14 17:57:32.715  1021  3083 W ActivityTaskManager: zzg getRecentTasksImpl intentcmp=ComponentInfo{com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity}, intentDataStr=null
+10-14 17:57:32.715   500   576 I libPowerHal: [perfLockRel] hdl:77, idx:0
+10-14 17:57:32.715  1021  3083 W ActivityTaskManager: zzg getRecentTasksImpl intentcmp=ComponentInfo{com.debug.loggerui/com.debug.loggerui.MainActivity}, intentDataStr=null
+10-14 17:57:32.715  1021  3083 W ActivityTaskManager: zzg getRecentTasksImpl intentcmp=ComponentInfo{com.yangcong345.pad.systemsetting/com.yangcong345.pad.systemsetting.SystemSettingActivity}, intentDataStr=null
+10-14 17:57:32.715   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:32.717  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:32.720   500   523 I mtkpower@impl: [setMode] type:5, enabled:1
+10-14 17:57:32.720   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:78 hint:11 pid:500 duration:30000 lock_user:mtkpower@1.0-se => ret_hdl:78
+10-14 17:57:32.720   500   576 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: 1800000 -1 2000000 -1
+10-14 17:57:32.721   500   576 I libPowerHal: [PE] LAUNCH update cmd:1000000, param:0
+10-14 17:57:32.721  1021  3533 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.DEFAULT] flg=0x10010000 cmp=com.android.launcher3/com.android.quickstep.RecentsActivity (has extras)} from uid 10095
+10-14 17:57:32.721   500   576 I libPowerHal: [PE] LAUNCH update cmd:1408300, param:100
+10-14 17:57:32.721   500   576 I libPowerHal: [PE] LAUNCH update cmd:1000000 param:0
+10-14 17:57:32.722  5215  5251 I Monkey  :     // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.DEFAULT] cmp=com.android.launcher3/com.android.quickstep.RecentsActivity } in package com.android.launcher3
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: Failed to start recents activity
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.android.server.wm.Task.shouldBeVisible(com.android.server.wm.ActivityRecord)' on a null object reference
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: 	at com.android.server.wm.TaskDisplayArea.moveRootTaskBehindBottomMostVisibleRootTask(TaskDisplayArea.java:1703)
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: 	at com.android.server.wm.RecentsAnimation.startRecentsActivity(RecentsAnimation.java:233)
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: 	at com.android.server.wm.ActivityTaskManagerService.startRecentsActivity(ActivityTaskManagerService.java:1771)
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: 	at android.app.IActivityTaskManager$Stub.onTransact(IActivityTaskManager.java:1171)
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: 	at com.android.server.wm.ActivityTaskManagerService.onTransact(ActivityTaskManagerService.java:5229)
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: 	at android.os.Binder.execTransactInternal(Binder.java:1280)
+10-14 17:57:32.723  1021  3533 E RecentsAnimation: 	at android.os.Binder.execTransact(Binder.java:1244)
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: ActivityTaskManager onTransact aborts UID:10095 PID:2481
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.android.server.wm.Task.shouldBeVisible(com.android.server.wm.ActivityRecord)' on a null object reference
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: 	at com.android.server.wm.TaskDisplayArea.moveRootTaskBehindBottomMostVisibleRootTask(TaskDisplayArea.java:1703)
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: 	at com.android.server.wm.RecentsAnimation.startRecentsActivity(RecentsAnimation.java:233)
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: 	at com.android.server.wm.ActivityTaskManagerService.startRecentsActivity(ActivityTaskManagerService.java:1771)
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: 	at android.app.IActivityTaskManager$Stub.onTransact(IActivityTaskManager.java:1171)
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: 	at com.android.server.wm.ActivityTaskManagerService.onTransact(ActivityTaskManagerService.java:5229)
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1280)
+10-14 17:57:32.724  1021  3533 W ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+10-14 17:57:32.727  1910  1910 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{cdbf74 I.E...... ......ID 0,0-1920,1200} canPanelBeCollapsed(): false
+10-14 17:57:32.770   492   538 I Proximity: distance = 2
+10-14 17:57:32.771  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:32.959   500   565 I libPerfCtl: xgfGetFPS pid:1021 fps:-1
+10-14 17:57:32.959   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:32.959   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:32.969  1762  1762 I WifiHAL : Get link layer stats
+10-14 17:57:32.969  3085  3568 D AppDurationManager: timer===80
+10-14 17:57:32.969  1762  1762 I WifiHAL : GetLinkStatsCommand::create
+10-14 17:57:32.969  1762  1762 D android.hardware.wifi@1.0-service-lazy: WifiRequest::create vendor command to iface 11, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-14 17:57:32.969  1762  1762 I android.hardware.wifi@1.0-service-lazy: WifiCommand::requestResponse err=-14
+10-14 17:57:32.969  1762  1762 I WifiHAL : wifi_get_link_stats: result=-1
+10-14 17:57:32.970  1021  1508 E WifiVendorHal: getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-14 17:57:32.974   492   538 I Proximity: distance = 2
+10-14 17:57:32.975  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:33.110  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(643.0,1086.0)
+10-14 17:57:33.112   500   576 I libPowerHal: [perfLockAcq] idx:1 hdl:79 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:79
+10-14 17:57:33.112   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:33.112  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(645.7229,1100.6301)
+10-14 17:57:33.113   500   576 I libPowerHal: [perfLockRel] hdl:79, idx:1
+10-14 17:57:33.114   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:33.114  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:33.179   492   538 I Proximity: distance = 2
+10-14 17:57:33.179  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:33.371  1021  1190 I am_uid_idle: 10058
+10-14 17:57:33.377  1021  1190 I am_uid_idle: 10097
+10-14 17:57:33.382   492   538 I Proximity: distance = 2
+10-14 17:57:33.383  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:33.586   492   538 I Proximity: distance = 2
+10-14 17:57:33.587  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:33.629  1021  1190 I am_uid_idle: 10027
+10-14 17:57:33.717  5215  5215 I Monkey  : :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+10-14 17:57:33.719  1021  3533 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity} from uid 2000
+10-14 17:57:33.720  5215  5215 I Monkey  :     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+10-14 17:57:33.722  1021  3533 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-14 17:57:33.723  1021  3533 I wm_task_created: [159,-1]
+10-14 17:57:33.726  1021  3533 I wm_task_moved: [159,1,2]
+10-14 17:57:33.726  1021  3533 I wm_task_to_front: [0,159]
+10-14 17:57:33.727  1021  3533 I wm_create_task: [0,159]
+10-14 17:57:33.727  1021  3533 I wm_create_activity: [0,68595997,159,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+10-14 17:57:33.727   500   523 I mtkpower@impl: [setMode] type:5, enabled:1
+10-14 17:57:33.727  3178  3178 I wm_on_top_resumed_lost_called: [61431228,com.yangcong345.eye.protection.pro.DetailMainActivity,topStateChangedWhenResumed]
+10-14 17:57:33.728  1021  3533 I wm_task_moved: [159,1,2]
+10-14 17:57:33.728   500   576 I libPowerHal: [perfLockAcq] idx:1 hdl:80 hint:11 pid:500 duration:30000 lock_user:mtkpower@1.0-se => ret_hdl:80
+10-14 17:57:33.728   500   576 I libPowerHal: [perfLockRel] hdl:78, idx:0
+10-14 17:57:33.730  1021  3533 I wm_pause_activity: [0,61431228,com.yangcong345.eye.protection/.pro.DetailMainActivity,userLeaving=true,pauseBackTasks]
+10-14 17:57:33.732  1021  3533 I PowerHalWrapper: <amsBoostResume> last:com.yangcong345.eye.protection, next:com.yangcong345.android.phone
+10-14 17:57:33.733   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:81 hint:22 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:81
+10-14 17:57:33.733   500   576 I libPowerHal: [perfLockRel] hdl:73, idx:-1
+10-14 17:57:33.736  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:33.738  3178  3178 V Activity: onPause com.yangcong345.eye.protection.pro.DetailMainActivity@3b578c6
+10-14 17:57:33.738  3178  3178 D CrashReport: >>> com.yangcong345.eye.protection.pro.DetailMainActivity onPaused <<<
+10-14 17:57:33.739   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:9.202200,dur:2064.72,max:1775.81,min:14.07
+10-14 17:57:33.741  3085  3568 D YCLockActivity: 【5】累计已使用的临时使用时长===0 ,临时限制时长tempDurationLimit:-1
+10-14 17:57:33.741  3178  3178 I wm_on_paused_called: [61431228,com.yangcong345.eye.protection.pro.DetailMainActivity,performPause]
+10-14 17:57:33.741  3085  3568 D PadDurationManager: 当前平板使用时间===20070
+10-14 17:57:33.742  1021  3083 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (107243)
+10-14 17:57:33.742  1021  3083 I wm_add_to_stopping: [0,61431228,com.yangcong345.eye.protection/.pro.DetailMainActivity,makeInvisible]
+10-14 17:57:33.746  1021  3083 I wm_restart_activity: [0,68595997,159,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity]
+10-14 17:57:33.746  1021  3083 I PowerHalWrapper: amsBoostNotify pid:3940,activity:com.yangcong345.main.phone.splash.SplashActivity, package:com.yangcong345.android.phone, mProcessCreatePackcom.yangcong345.eye.protection
+10-14 17:57:33.746  1021  3083 I PowerHalWrapper: state: 1
+10-14 17:57:33.746  1021  3083 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity pid=3940 state:1
+10-14 17:57:33.746  1021  3083 I game_scn: collectForegroundAppList packName=com.yangcong345.android.phone, actName=com.yangcong345.main.phone.splash.SplashActivity, pid=3940, uid=10069, state:RESUMED
+10-14 17:57:33.746  1021  3083 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3178, packname: com.yangcong345.eye.protection, actname: com.yangcong345.eye.protection.pro.DetailMainActivity
+10-14 17:57:33.746  1021  3083 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3940, packname: com.yangcong345.android.phone, actname: com.yangcong345.main.phone.splash.SplashActivity
+10-14 17:57:33.746  1021  3083 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+10-14 17:57:33.747   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.android.phone, act:com.yangcong345.main.phone.splash.SplashActivity, state:1, pid:3940, uid:10069, fps:-1
+10-14 17:57:33.747   500   576 I libPowerHal: [perfNotifyAppState] foreground:com.yangcong345.android.phone, pid:3940, uid:10069
+10-14 17:57:33.747  1021  3083 W WindowManager: Changing focus from Window{69eccc1 u0 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:476 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6179 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:4612 com.android.server.wm.TaskFragment.onActivityStateChanged:772
+10-14 17:57:33.747   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:33.747   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:33.747  1021  3083 I wm_set_resumed_activity: [0,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity,minimalResumeActivityLocked]
+10-14 17:57:33.748  1021  1159 I sysui_multi_action: [757,803,799,window_time_0,802,3]
+10-14 17:57:33.748   500   522 I mtkpower@impl: [notifyAppState] pc:0, com.yangcong345.eye.protection => com.yangcong345.android.phone
+10-14 17:57:33.749  3940  5301 D libMEOW : meow new tls: 0xb40000700c45a0e0
+10-14 17:57:33.749  3940  5301 D libMEOW : applied 0 plugin for [com.yangcong345.android.phone].
+10-14 17:57:33.749  3940  5301 D libMEOW : rebuild call chain: 0xb40000700c4ea170
+10-14 17:57:33.749  3940  5301 D libMEOW : meow delete tls: 0xb40000700c45a0e0
+10-14 17:57:33.752  1021  3083 I PowerHalWrapper: amsBoostNotify pid:3178,activity:com.yangcong345.eye.protection.pro.DetailMainActivity, package:com.yangcong345.eye.protection, mProcessCreatePackcom.yangcong345.eye.protection
+10-14 17:57:33.752  1021  3083 I PowerHalWrapper: state: 0
+10-14 17:57:33.752  1021  3083 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity pid=3178 state:0
+10-14 17:57:33.752  1021  3083 I game_scn: collectForegroundAppList packName=com.yangcong345.eye.protection, actName=com.yangcong345.eye.protection.pro.DetailMainActivity, pid=3178, uid=10113, state:PAUSED
+10-14 17:57:33.752  1021  3083 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3940, packname: com.yangcong345.android.phone, actname: com.yangcong345.main.phone.splash.SplashActivity
+10-14 17:57:33.752   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:0, pid:3178, uid:10113, fps:-1
+10-14 17:57:33.753  1021  3083 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+10-14 17:57:33.753  1021  1163 I input_focus: [Requesting to set focus to null window,reason=UpdateInputWindows]
+10-14 17:57:33.754  1021  1162 D OomAdjuster: Not killing cached processes
+10-14 17:57:33.760  1021  1195 W libprocessgroup: Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-14 17:57:33.760  3940  3940 V Activity: onCreate com.yangcong345.main.phone.splash.SplashActivity@e28d3d7: null
+10-14 17:57:33.761  3940  3940 D ActivityLifecycleShanYanTask: onActivityCreated name**com.yangcong345.main.phone.splash.SplashActivity**
+10-14 17:57:33.761  3940  3940 D CrashReport: >>> com.yangcong345.main.phone.splash.SplashActivity onCreated <<<
+--------- beginning of radio
+10-14 17:57:33.761  2192  2192 D CapRIL  : resetProxyAndRequestList
+10-14 17:57:33.762   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-14 17:57:33.763   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:33.764  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:33.764   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:33.764  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV2_0: java.util.NoSuchElementException
+10-14 17:57:33.764  2192  2192 E CapRIL  : getMtkRadioExCapProxy: is empty
+10-14 17:57:33.768  3940  3940 E ActivityThread: Failed to find provider info for com.example.edcationcloud
+10-14 17:57:33.769  3940  3940 E ActivityThread: Failed to find provider info for com.example.edcationcloud
+10-14 17:57:33.770  3940  3940 D test_act: com.yangcong345.android.phone
+10-14 17:57:33.771  1021  1361 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=ycmath://padlauncher.com/... cmp=com.yangcong345.cloud.ui.launcher/com.yangcong345.support.common.LauncherSchemeActivity} from uid 10069
+10-14 17:57:33.771  1021  1441 I input_focus: [Focus leaving 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server),reason=NO_WINDOW]
+10-14 17:57:33.772  5215  5251 I Monkey  :     // Rejecting start of Intent { act=android.intent.action.VIEW dat=ycmath://padlauncher.com/... cmp=com.yangcong345.cloud.ui.launcher/com.yangcong345.support.common.LauncherSchemeActivity } in package com.yangcong345.cloud.ui.launcher
+10-14 17:57:33.773  1021  1361 I wm_finish_activity: [0,68595997,159,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity,app-request]
+10-14 17:57:33.773  1021  1361 I wm_task_moved: [157,1,2]
+10-14 17:57:33.773  1021  1361 I wm_task_to_front: [0,157]
+10-14 17:57:33.773  1021  1361 I wm_focused_root_task: [0,0,157,159,finish-top adjustFocusToNextFocusableTask]
+10-14 17:57:33.773  1021  1361 I wm_pause_activity: [0,68595997,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity,userLeaving=false,finish]
+10-14 17:57:33.776  3940  3940 I wm_on_create_called: [68595997,com.yangcong345.main.phone.splash.SplashActivity,performCreate]
+10-14 17:57:33.777  1021  3533 I wm_add_to_stopping: [0,68595997,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity,completeFinishing]
+10-14 17:57:33.778  1021  3533 I PowerHalWrapper: amsBoostNotify pid:3178,activity:com.yangcong345.eye.protection.pro.DetailMainActivity, package:com.yangcong345.eye.protection, mProcessCreatePackcom.yangcong345.eye.protection
+10-14 17:57:33.778  1021  3533 I PowerHalWrapper: state: 1
+10-14 17:57:33.778  1021  3533 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity pid=3178 state:1
+10-14 17:57:33.778  1021  3533 I game_scn: collectForegroundAppList packName=com.yangcong345.eye.protection, actName=com.yangcong345.eye.protection.pro.DetailMainActivity, pid=3178, uid=10113, state:RESUMED
+10-14 17:57:33.778  1021  3533 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3940, packname: com.yangcong345.android.phone, actname: com.yangcong345.main.phone.splash.SplashActivity
+10-14 17:57:33.778  1021  3533 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3178, packname: com.yangcong345.eye.protection, actname: com.yangcong345.eye.protection.pro.DetailMainActivity
+10-14 17:57:33.778  1021  3533 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+10-14 17:57:33.778   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:1, pid:3178, uid:10113, fps:-1
+10-14 17:57:33.778   500   576 I libPowerHal: [perfNotifyAppState] foreground:com.yangcong345.eye.protection, pid:3178, uid:10113
+10-14 17:57:33.779   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:33.779   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:33.779  1021  3533 W WindowManager: Changing focus from null to Window{69eccc1 u0 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:476 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6179 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:4612 com.android.server.wm.TaskFragment.onActivityStateChanged:772
+10-14 17:57:33.779   500   522 I mtkpower@impl: [notifyAppState] pc:0, com.yangcong345.android.phone => com.yangcong345.eye.protection
+10-14 17:57:33.779  1021  3533 I wm_set_resumed_activity: [0,com.yangcong345.eye.protection/.pro.DetailMainActivity,resumeTopActivity]
+10-14 17:57:33.779  1021  3533 D qqqw    : updateRotationUnchecked mRotation=1, mLastOrientation=0
+10-14 17:57:33.780  1021  3533 I wm_resume_activity: [0,61431228,157,com.yangcong345.eye.protection/.pro.DetailMainActivity]
+10-14 17:57:33.781  1021  1159 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+10-14 17:57:33.782  3178  3178 V Activity: onResume com.yangcong345.eye.protection.pro.DetailMainActivity@3b578c6
+10-14 17:57:33.782  3178  3178 D CrashReport: >>> com.yangcong345.eye.protection.pro.DetailMainActivity onResumed <<<
+10-14 17:57:33.787  3085  3085 D onAccessibilityEvent111: EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 110322; PackageName: com.yangcong345.eye.protection; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.yangcong345.eye.protection.pro.DetailMainActivity; Text: [eyeProtection-staging]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+10-14 17:57:33.788  1021  1823 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1189 com.android.server.hra.HraManagerService.turnOnEyeComfort:1504 android.os.IHraManager$Stub.onTransact:1897 android.os.Binder.execTransactInternal:1285 android.os.Binder.execTransact:1244
+10-14 17:57:33.789  3178  3178 I wm_on_resume_called: [61431228,com.yangcong345.eye.protection.pro.DetailMainActivity,RESUME_ACTIVITY]
+10-14 17:57:33.790   492   538 I Proximity: distance = 2
+10-14 17:57:33.791  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:33.793  1021  3533 I PowerHalWrapper: amsBoostNotify pid:3940,activity:com.yangcong345.main.phone.splash.SplashActivity, package:com.yangcong345.android.phone, mProcessCreatePackcom.yangcong345.eye.protection
+10-14 17:57:33.793  1021  3533 I PowerHalWrapper: state: 0
+10-14 17:57:33.794  1021  3533 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity pid=3940 state:0
+10-14 17:57:33.794  1021  3533 I game_scn: collectForegroundAppList packName=com.yangcong345.android.phone, actName=com.yangcong345.main.phone.splash.SplashActivity, pid=3940, uid=10069, state:PAUSED
+10-14 17:57:33.794   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.android.phone, act:com.yangcong345.main.phone.splash.SplashActivity, state:0, pid:3940, uid:10069, fps:-1
+10-14 17:57:33.794  1021  3533 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3178, packname: com.yangcong345.eye.protection, actname: com.yangcong345.eye.protection.pro.DetailMainActivity
+10-14 17:57:33.794  1021  3533 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+10-14 17:57:33.795  1021  1162 I wm_destroy_activity: [0,68595997,159,com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity,finish-imm:idle]
+10-14 17:57:33.795  1021  1162 I PowerHalWrapper: amsBoostNotify pid:3940,activity:com.yangcong345.main.phone.splash.SplashActivity, package:com.yangcong345.android.phone, mProcessCreatePackcom.yangcong345.eye.protection
+10-14 17:57:33.795  1021  1162 I PowerHalWrapper: state: 0
+10-14 17:57:33.795  1021  1162 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity pid=3940 state:0
+10-14 17:57:33.795  1021  1162 I game_scn: collectForegroundAppList packName=com.yangcong345.android.phone, actName=com.yangcong345.main.phone.splash.SplashActivity, pid=3940, uid=10069, state:PAUSED
+10-14 17:57:33.795  1021  1162 I game_scn: powerNotifyForegroundApp multi_resumed_app_info: pid: 3178, packname: com.yangcong345.eye.protection, actname: com.yangcong345.eye.protection.pro.DetailMainActivity
+10-14 17:57:33.795  1021  1162 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+10-14 17:57:33.795   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.android.phone, act:com.yangcong345.main.phone.splash.SplashActivity, state:0, pid:3940, uid:10069, fps:-1
+10-14 17:57:33.796  1021  1163 I input_focus: [Focus request 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity,reason=UpdateInputWindows]
+10-14 17:57:33.796  3940  3940 V Activity: onDestroy com.yangcong345.main.phone.splash.SplashActivity@e28d3d7
+10-14 17:57:33.797  3940  3940 W 5.android.phone: Accessing hidden field Landroid/view/inputmethod/InputMethodManager;->mCurRootView:Landroid/view/ViewRootImpl; (blocked, reflection, denied)
+10-14 17:57:33.797  3940  3940 D ActivityLifecycleShanYanTask: onActivityDestroyed name**com.yangcong345.main.phone.splash.SplashActivity**
+10-14 17:57:33.797  3940  3940 D CrashReport: >>> com.yangcong345.main.phone.splash.SplashActivity onDestroyed <<<
+10-14 17:57:33.798  3940  3940 I wm_on_destroy_called: [68595997,com.yangcong345.main.phone.splash.SplashActivity,performDestroy]
+10-14 17:57:33.799  1021  3533 D WindowManager: setParent old=Task{f651ef2 #159 type=standard A=10069:com.yangcong345.android.phone U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0},new=null,this window=ActivityRecord{416b11d u0 com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity} t159 f}},callers=com.android.server.wm.WindowContainer.removeChild:772 com.android.server.wm.TaskFragment.removeChild:2565 com.android.server.wm.Task.removeChild:1499 com.android.server.wm.Task.removeChild:1482 com.android.server.wm.WindowContainer.removeImmediately:828 com.android.server.wm.WindowToken.removeImmediately:350
+10-14 17:57:33.800  1021  3533 I wm_task_removed: [159,removeChild:removeChild last r=ActivityRecord{416b11d u0 com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity} t-1 f}} in t=Task{f651ef2 #159 type=standard A=10069:com.yangcong345.android.phone U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}]
+10-14 17:57:33.800  1021  3533 I wm_task_removed: [159,removeChild]
+10-14 17:57:33.801  1021  3533 D WindowManager: setParent old=DefaultTaskDisplayArea@227847002,new=null,this window=Task{f651ef2 #159 type=standard A=10069:com.yangcong345.android.phone U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0},callers=com.android.server.wm.WindowContainer.removeChild:772 com.android.server.wm.TaskDisplayArea.removeChildTask:359 com.android.server.wm.TaskDisplayArea.removeChild:350 com.android.server.wm.WindowContainer.removeImmediately:828 com.android.server.wm.TaskFragment.removeImmediately:2645 com.android.server.wm.Task.removeImmediately:2587
+10-14 17:57:33.802  3178  3178 I wm_on_top_resumed_gained_called: [61431228,com.yangcong345.eye.protection.pro.DetailMainActivity,topWhenResuming]
+10-14 17:57:33.806  1021  1441 I input_focus: [Focus entering 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server),reason=Window became focusable. Previous reason: NO_WINDOW]
+10-14 17:57:33.807  1021  1195 W libprocessgroup: Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-14 17:57:33.808  3085  3085 D onAccessibilityEvent122: source  android.view.accessibility.AccessibilityNodeInfo@80006cd7; boundsInParent: Rect(0, 0 - 1920, 1200); boundsInScreen: Rect(0, 0 - 1920, 1200); packageName: com.yangcong345.eye.protection; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-14 17:57:33.830  3940  4177 D OK-HTTP : 请求链接：https://important-notices-stage.yangcong345.com/
+10-14 17:57:33.830  3940  4177 D OK-HTTP : 请求方法：GET
+10-14 17:57:33.830  3940  4177 D OK-HTTP : 请求头部：
+10-14 17:57:33.830  3940  4177 D OK-HTTP :
+10-14 17:57:33.830  3940  4177 D OK-HTTP : 返回头部：
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Server: nginx
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Date: Mon, 14 Oct 2024 09:57:33 GMT
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Content-Type: application/json
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Content-Length: 5
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Last-Modified: Thu, 25 Aug 2022 09:48:30 GMT
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Connection: keep-alive
+10-14 17:57:33.830  3940  4177 D OK-HTTP : ETag: "6307456e-5"
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Cache-Control: no-store
+10-14 17:57:33.830  3940  4177 D OK-HTTP : Accept-Ranges: bytes
+10-14 17:57:33.830  3940  4177 D OK-HTTP :
+10-14 17:57:33.830  3940  4177 D OK-HTTP : 返回内容：
+10-14 17:57:33.830  3940  4177 D OK-HTTP : 状态码：200，
+10-14 17:57:33.830  3940  4177 D OK-HTTP : 返回内容：null
+10-14 17:57:33.830  3940  4177 D OK-HTTP :
+10-14 17:57:33.830  3940  4177 D OK-HTTP :
+10-14 17:57:33.832  3085  3085 D onAccessibilityEvent111: EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 110368; PackageName: com.yangcong345.eye.protection; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.yangcong345.eye.protection.pro.DetailMainActivity; Text: [eyeProtection-staging]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+10-14 17:57:33.838  3940  4191 I CUSTOM_DNS: OnionNetwork Dns服务，key:lookup,data:{hostname=version-stage.yangcong345.com, enableDns=true, dnsServerList=[119.29.29.29]}
+10-14 17:57:33.839   510  2600 D SurfaceFlinger: [SF client] NEW(0xb400007a760733f0) for (1910:com.android.systemui)
+10-14 17:57:33.841  1910  2245 D VRI[phone]: hardware acceleration = true, forceHwAccelerated = false
+10-14 17:57:33.842  1021  1361 W WindowManager: Attempted to add application window with unknown token Token{1f625f4 ActivityRecord{416b11d u0 com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity} t-1 f}}}.  Aborting.
+10-14 17:57:33.842  1021  1195 W libprocessgroup: Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-14 17:57:33.844  1021  1361 W WindowManager: Failed looking up window session=Session{f40a3b 1910:u0a10096} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6064 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:949 android.view.IWindowSession$Stub.onTransact:1209
+10-14 17:57:33.844  1910  2245 W ShellStartingWindow: android.os.BinderProxy@79f00b8 already running, starting window not displayed. Unable to add window -- token android.os.BinderProxy@79f00b8 is not valid; is your activity running?
+10-14 17:57:33.844  1021  1361 E WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+10-14 17:57:33.844  1910  2245 W ShellStartingWindow: view not successfully added to wm, removing view
+10-14 17:57:33.846  1021  1361 W WindowManager: Failed looking up window session=Session{f40a3b 1910:u0a10096} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6064 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:949 android.view.IWindowSession$Stub.onTransact:1209
+10-14 17:57:33.846  1021  1361 E WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+10-14 17:57:33.861  3085  3568 D AttentionManager_pageChange: {"packageName":"com.yangcong345.eye.protection","className":"com.yangcong345.eye.protection.pro.DetailMainActivity","switchStatus":false,"currentPackageName":"","currentClassName":""}
+10-14 17:57:33.864  3085  3085 D onAccessibilityEvent122: source  android.view.accessibility.AccessibilityNodeInfo@80006cd7; boundsInParent: Rect(0, 0 - 1920, 1200); boundsInScreen: Rect(0, 0 - 1920, 1200); packageName: com.yangcong345.eye.protection; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-14 17:57:33.866  3085  3609 D DataSailMapper: get instance by url: intelligent-hardware.cn-beijing.log.aliyuncs.com/logstores/launcher-debug-store/shards/lb
+10-14 17:57:33.866   510   510 I BufferQueueProducer: [com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity#164](this:0xb400007b66240708,id:-1,api:0,p:-1,c:510) queueBuffer: fps=0.35 dur=2891.16 max=2891.16 min=2891.16
+10-14 17:57:33.867  3085  3609 I System.out: [okhttp]:check permission begin!
+10-14 17:57:33.868  3085  3609 I System.out: [okhttp]:not MMS!
+10-14 17:57:33.868  3085  3609 I System.out: [okhttp]:not Email!
+10-14 17:57:33.869   500   523 I mtkpower@impl: [setMode] type:5, enabled:0
+10-14 17:57:33.870   500   576 I libPowerHal: [perfLockRel] hdl:80, idx:1
+10-14 17:57:33.870  1021  3533 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:true, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false
+10-14 17:57:33.870   500   522 I mtkpower@impl: [mtkPowerHint] hint:22, hold:500, ext:0, ext_hold:0
+10-14 17:57:33.871   500   576 I libPowerHal: [perfLockAcq] idx:1 hdl:82 hint:22 pid:500 duration:500 lock_user:mtkpower@1.0-se => ret_hdl:82
+10-14 17:57:33.871   500   576 I libPowerHal: [perfLockRel] hdl:81, idx:0
+10-14 17:57:33.872  3085  3609 I System.out: [OkHttp] sendRequest<<
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 请求链接：https://version-stage.yangcong345.com/version/check
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 请求方法：POST
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 请求头部：
+10-14 17:57:33.910  3940  4191 D OK-HTTP :
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 请求体：
+10-14 17:57:33.910  3940  4191 D OK-HTTP : {"category":"ycmath","channel":"guanghetv","platform":"android","version":"7.68.0"}
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 返回头部：
+10-14 17:57:33.910  3940  4191 D OK-HTTP : date: Mon, 14 Oct 2024 09:57:33 GMT
+10-14 17:57:33.910  3940  4191 D OK-HTTP : content-type: application/json; charset=utf-8
+10-14 17:57:33.910  3940  4191 D OK-HTTP : content-length: 453
+10-14 17:57:33.910  3940  4191 D OK-HTTP : access-control-allow-credentials: true
+10-14 17:57:33.910  3940  4191 D OK-HTTP : access-control-allow-headers: Authorization, Accept-Encoding, Cache-Control, Content-Type, Content-Length, Range, Referer, X-CSRF-Token, X-Requested-With,appid, accept, client-category, client-channel, client-identity, client-type, client-version, env, eventtime, eventTime, omvd, omvd, origin, params-style, source, timestamp, uid, userId, version, x-key, x-key-ignore
+10-14 17:57:33.910  3940  4191 D OK-HTTP : access-control-allow-methods: POST, OPTIONS, GET, PUT
+10-14 17:57:33.910  3940  4191 D OK-HTTP : access-control-allow-origin: *
+10-14 17:57:33.910  3940  4191 D OK-HTTP : access-control-expose-headers: params-style
+10-14 17:57:33.910  3940  4191 D OK-HTTP : strict-transport-security: max-age=15724800; includeSubDomains
+10-14 17:57:33.910  3940  4191 D OK-HTTP :
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 返回内容：
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 状态码：200，
+10-14 17:57:33.910  3940  4191 D OK-HTTP : 返回内容：{"id":"3aba3a2a-7268-4736-8dc8-2d921ef103f4","title":"","image":"","note":"","category":"ycmath","platform":"android","strategy":"common","update":true,"build":189,"version":"5.39.0","apkUrl":"https://mobile.content.yangcong345.com/ycmath-5.39.0-189-guanghetv-651e61ea91d34d405cd4b5241c16032369c5ca0e.apk","apkSize":"82.52MB","channel":"guanghetv","createdAt":"2020-11-04T14:53:11.345+08:00","updatedAt":"2020-11-04T14:53:11.345+08:00","deletedAt":null}
+10-14 17:57:33.910  3940  4191 D OK-HTTP :
+10-14 17:57:33.917  3085  3560 D AttentionManager_pageChange: {"packageName":"com.yangcong345.eye.protection","className":"com.yangcong345.eye.protection.pro.DetailMainActivity","switchStatus":false,"currentPackageName":"","currentClassName":""}
+10-14 17:57:33.921  3085  3610 D DataSailMapper: get instance by url: intelligent-hardware.cn-beijing.log.aliyuncs.com/logstores/launcher-debug-store/shards/lb
+10-14 17:57:33.922  3085  3610 I System.out: [okhttp]:check permission begin!
+10-14 17:57:33.922  3085  3610 I System.out: [okhttp]:not MMS!
+10-14 17:57:33.922  3085  3610 I System.out: [okhttp]:not Email!
+10-14 17:57:33.924  3085  3610 I System.out: [OkHttp] sendRequest<<
+10-14 17:57:33.947  1021  1190 I am_uid_idle: 10066
+10-14 17:57:33.959   500   565 I libPerfCtl: xgfGetFPS pid:1021 fps:-1
+10-14 17:57:33.959   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:33.959   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:33.968   707   707 I thermal_repeater: socket -1
+10-14 17:57:33.998   492   538 I Proximity: distance = 2
+10-14 17:57:33.999  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:34.023   715   750 D AAL     : 10-14 05:57:33.926 BL= 448,ESS= 256, 10-14 05:57:34.007 BL= 449,ESS= 256,
+10-14 17:57:34.071   715   750 D AAL     : 10-14 05:57:34.039 BL= 448,ESS= 256, 10-14 05:57:34.055 BL= 449,ESS= 256,
+10-14 17:57:34.114  2929  2929 I Monkey  : :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+10-14 17:57:34.116  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), PointerEventDispatcher0 (server),
+10-14 17:57:34.117  2929  2929 I Monkey  : :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+10-14 17:57:34.119  1021  1361 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10113) doesn't own the focused window nor none of the previously interacted window
+10-14 17:57:34.121  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:34.207   492   538 I Proximity: distance = 2
+10-14 17:57:34.208  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:34.353  1021  1162 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+10-14 17:57:34.371   500   576 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:82
+10-14 17:57:34.371   500   576 I libPowerHal: [perfLockRel] hdl:82, idx:1
+10-14 17:57:34.371   500   576 I libPowerHal: MTKPOWER_HINT_PACK_SWITCH: cpu_ctrl set cpu freq: -1 -1 -1 -1
+10-14 17:57:34.371   500   576 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000, param:-1
+10-14 17:57:34.371   500   576 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:0
+10-14 17:57:34.373   500   576 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000 param:-1
+10-14 17:57:34.379   715   750 D AAL     : 10-14 05:57:34.233 BL= 448,ESS= 256, 10-14 05:57:34.282 BL= 447,ESS= 256, 10-14 05:57:34.314 BL= 446,ESS= 256, 10-14 05:57:34.346 BL= 445,ESS= 256, 10-14 05:57:34.379 BL= 444,ESS= 256,
+10-14 17:57:34.411   492   538 I Proximity: distance = 2
+10-14 17:57:34.413  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:34.573   715   750 D AAL     : 10-14 05:57:34.444 BL= 443,ESS= 256, 10-14 05:57:34.460 BL= 442,ESS= 256, 10-14 05:57:34.493 BL= 441,ESS= 256, 10-14 05:57:34.540 BL= 440,ESS= 256, 10-14 05:57:34.573 BL= 439,ESS= 256,
+10-14 17:57:34.615   492   538 I Proximity: distance = 2
+10-14 17:57:34.617  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:34.737  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(182.0,49.0)
+10-14 17:57:34.739  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server),
+10-14 17:57:34.740   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:83 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:83
+10-14 17:57:34.741   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:34.742  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(169.05525,54.201355)
+10-14 17:57:34.744   500   576 I libPowerHal: [perfLockRel] hdl:83, idx:0
+10-14 17:57:34.744   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:34.744  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:34.750   715   750 D AAL     : 10-14 05:57:34.605 BL= 438,ESS= 256, 10-14 05:57:34.637 BL= 437,ESS= 256, 10-14 05:57:34.686 BL= 436,ESS= 256, 10-14 05:57:34.718 BL= 435,ESS= 256, 10-14 05:57:34.750 BL= 434,ESS= 256,
+10-14 17:57:34.773   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:37.727135,dur:1033.74,max:421.26,min:14.29
+10-14 17:57:34.822   492   538 I Proximity: distance = 2
+10-14 17:57:34.824  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:34.928   715   750 D AAL     : 10-14 05:57:34.798 BL= 433,ESS= 256, 10-14 05:57:34.815 BL= 434,ESS= 256, 10-14 05:57:34.865 BL= 435,ESS= 256, 10-14 05:57:34.896 BL= 436,ESS= 256, 10-14 05:57:34.928 BL= 437,ESS= 256,
+10-14 17:57:34.960   500   565 I libPerfCtl: xgfGetFPS pid:1021 fps:-1
+10-14 17:57:34.960   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:34.960   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:63
+10-14 17:57:34.960   500   565 I libPowerHal: [updateFPS] pid(3178) : -1 => 60
+10-14 17:57:34.961   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:5, pid:3178, uid:10113, fps:60
+10-14 17:57:34.961   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:34.961   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:35.015  2192  2192 D SmsRIL  : resetProxyAndRequestList
+10-14 17:57:35.016   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/slot1 in the VINTF manifest.
+10-14 17:57:35.018   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/imsSlot1 in either framework or device VINTF manifest.
+10-14 17:57:35.019  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:35.019  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy: is empty
+10-14 17:57:35.027   492   538 I Proximity: distance = 2
+10-14 17:57:35.029  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:35.122  2929  2929 I Monkey  : :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+10-14 17:57:35.123   715   750 D AAL     : 10-14 05:57:34.977 BL= 438,ESS= 256, 10-14 05:57:35.009 BL= 439,ESS= 256, 10-14 05:57:35.041 BL= 440,ESS= 256, 10-14 05:57:35.074 BL= 441,ESS= 256, 10-14 05:57:35.122 BL= 442,ESS= 256,
+10-14 17:57:35.127  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), PointerEventDispatcher0 (server),
+10-14 17:57:35.129  2929  2929 I Monkey  : :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+10-14 17:57:35.144  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:35.231   492   538 I Proximity: distance = 2
+10-14 17:57:35.233  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:35.300   715   750 D AAL     : 10-14 05:57:35.154 BL= 443,ESS= 256, 10-14 05:57:35.187 BL= 444,ESS= 256, 10-14 05:57:35.237 BL= 445,ESS= 256, 10-14 05:57:35.267 BL= 446,ESS= 256, 10-14 05:57:35.300 BL= 447,ESS= 256,
+10-14 17:57:35.396   715   750 D AAL     : 10-14 05:57:35.332 BL= 448,ESS= 256, 10-14 05:57:35.380 BL= 449,ESS= 256,
+10-14 17:57:35.434   492   538 I Proximity: distance = 2
+10-14 17:57:35.436  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:35.638   492   538 I Proximity: distance = 2
+10-14 17:57:35.640  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:35.695  1021  3008 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-14 17:57:35.746  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1032.0,695.0)
+10-14 17:57:35.748  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server),
+10-14 17:57:35.750   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:84 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:84
+10-14 17:57:35.751   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:35.751  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1051.3759,697.5787)
+10-14 17:57:35.753   500   576 I libPowerHal: [perfLockRel] hdl:84, idx:0
+10-14 17:57:35.754   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:35.754  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:35.842   492   538 I Proximity: distance = 2
+10-14 17:57:35.844  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:35.960   500   565 I libPerfCtl: xgfGetFPS pid:1021 fps:-1
+10-14 17:57:35.961   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:35.961   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:35.961   500   565 I libPowerHal: [updateFPS] pid(3178) : 60 => -1
+10-14 17:57:35.961   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:5, pid:3178, uid:10113, fps:-1
+10-14 17:57:35.963   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:35.963   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:35.990  1762  1762 I WifiHAL : Get link layer stats
+10-14 17:57:35.990  1762  1762 I WifiHAL : GetLinkStatsCommand::create
+10-14 17:57:35.990  1762  1762 D android.hardware.wifi@1.0-service-lazy: WifiRequest::create vendor command to iface 11, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-14 17:57:35.990  1762  1762 I android.hardware.wifi@1.0-service-lazy: WifiCommand::requestResponse err=-14
+10-14 17:57:35.990  1762  1762 I WifiHAL : wifi_get_link_stats: result=-1
+10-14 17:57:35.993  1021  1508 E WifiVendorHal: getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-14 17:57:36.046   492   538 I Proximity: distance = 2
+10-14 17:57:36.048  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:36.145  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1723.0,134.0)
+10-14 17:57:36.148   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:85 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:85
+10-14 17:57:36.149   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:36.149  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1708.491,133.56125)
+10-14 17:57:36.152  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1703.8107,128.62523)
+10-14 17:57:36.154  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1693.9329,124.55272)
+10-14 17:57:36.156  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1690.1462,118.86576)
+10-14 17:57:36.158  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(1676.7736,109.341835)
+10-14 17:57:36.160   500   576 I libPowerHal: [perfLockRel] hdl:85, idx:0
+10-14 17:57:36.160   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:36.161  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:36.162  3178  3178 I ScrollIdentify: on fling
+10-14 17:57:36.250   492   538 I Proximity: distance = 2
+10-14 17:57:36.252  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:36.455   492   538 I Proximity: distance = 2
+10-14 17:57:36.457  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:36.519  3178  3217 I .eye.protection: Explicit concurrent copying GC freed 9636(526KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 4969KB/9937KB, paused 191us,62us total 97.926ms
+10-14 17:57:36.536  1021  1190 I am_uid_idle: 10099
+10-14 17:57:36.635  1021  1190 I am_uid_idle: 10090
+10-14 17:57:36.643  1021  1190 I am_uid_idle: 10037
+10-14 17:57:36.658   492   538 I Proximity: distance = 2
+10-14 17:57:36.660  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:36.756  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1842.0,591.0)
+10-14 17:57:36.758   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:86 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:86
+10-14 17:57:36.759   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:36.759  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1840.9099,581.67175)
+10-14 17:57:36.760   500   576 I libPowerHal: [perfLockRel] hdl:86, idx:0
+10-14 17:57:36.761   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:36.762  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:36.862   492   538 I Proximity: distance = 2
+10-14 17:57:36.864  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:36.961   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:36.961   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:37.067   492   538 I Proximity: distance = 2
+10-14 17:57:37.070  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:37.162  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1311.0,787.0)
+10-14 17:57:37.166  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1307.4175,774.7522)
+10-14 17:57:37.166   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:87 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:87
+10-14 17:57:37.167   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:37.169  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1304.9125,772.12524)
+10-14 17:57:37.171  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1303.2833,761.9887)
+10-14 17:57:37.173  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1302.5314,755.35376)
+10-14 17:57:37.176  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1299.3928,750.86176)
+10-14 17:57:37.178  2929  2929 I Monkey  :     //[calendar_time:2024-10-14 17:57:37.177  system_uptime:113727]
+10-14 17:57:37.179  2929  2929 I Monkey  :     // Sending event #200
+10-14 17:57:37.180  2929  2929 I Monkey  : :Sending Touch (ACTION_MOVE): 0:(1299.2777,733.89294)
+10-14 17:57:37.182  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(1296.1338,726.1173)
+10-14 17:57:37.184   500   576 I libPowerHal: [perfLockRel] hdl:87, idx:0
+10-14 17:57:37.184   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:37.186  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:37.189  3178  3178 I ScrollIdentify: on fling
+10-14 17:57:37.229   510   510 I BufferQueueProducer: [com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity#164](this:0xb400007b66240708,id:-1,api:0,p:-1,c:510) queueBuffer: fps=2.68 dur=3362.75 max=2457.78 min=15.98
+10-14 17:57:37.231   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.406825,dur:2458.06,max:2458.06,min:2458.06
+10-14 17:57:37.275   492   538 I Proximity: distance = 2
+10-14 17:57:37.277  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:37.389   746   746 I auditd  : type=1400 audit(0.0:5436): avc: denied { read } for comm="recycle" name="connsyslog_recycle_size_config" dev="dm-9" ino=2277381 scontext=u:r:connsyslogger:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+10-14 17:57:37.389   746   746 I recycle : type=1400 audit(0.0:5436): avc: denied { read } for name="connsyslog_recycle_size_config" dev="dm-9" ino=2277381 scontext=u:r:connsyslogger:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+10-14 17:57:37.389   746   746 I auditd  : type=1400 audit(0.0:5437): avc: denied { open } for comm="recycle" path="/data/connsyslog/connsyslog_recycle_size_config" dev="dm-9" ino=2277381 scontext=u:r:connsyslogger:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+10-14 17:57:37.389   746   746 I recycle : type=1400 audit(0.0:5437): avc: denied { open } for path="/data/connsyslog/connsyslog_recycle_size_config" dev="dm-9" ino=2277381 scontext=u:r:connsyslogger:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+10-14 17:57:37.396   746   903 D connsyslogger: clearLog :/data/debuglogger/connsyslog/fw,foldersize:2000
+10-14 17:57:37.396   746   902 I connsyslogger: thrLogWriter: LogBuf=226.072266KB,idx=0
+10-14 17:57:37.479   492   538 I Proximity: distance = 2
+10-14 17:57:37.481  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:37.683   492   538 I Proximity: distance = 2
+10-14 17:57:37.685  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:37.763  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1058.0,387.0)
+10-14 17:57:37.766   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:88 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:88
+10-14 17:57:37.767   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:37.768  2192  2192 D CapRIL  : resetProxyAndRequestList
+10-14 17:57:37.768   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-14 17:57:37.769  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1060.5566,390.03946)
+10-14 17:57:37.769   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:37.770  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:37.770   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:37.771  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV2_0: java.util.NoSuchElementException
+10-14 17:57:37.771  2192  2192 E CapRIL  : getMtkRadioExCapProxy: is empty
+10-14 17:57:37.771   500   576 I libPowerHal: [perfLockRel] hdl:88, idx:0
+10-14 17:57:37.771  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:37.772   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:37.887   492   538 I Proximity: distance = 2
+10-14 17:57:37.889  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:37.962   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:37.962   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:38.091   492   538 I Proximity: distance = 2
+10-14 17:57:38.093  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:38.188  2929  2929 I Monkey  : :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.eye.protection/.LauncherActivity;end
+10-14 17:57:38.193  1021  3533 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.yangcong345.eye.protection/.LauncherActivity} from uid 2000
+10-14 17:57:38.195  5215  5251 I Monkey  :     // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.eye.protection/.LauncherActivity } in package com.yangcong345.eye.protection
+10-14 17:57:38.198  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:38.295   492   538 I Proximity: distance = 2
+10-14 17:57:38.297  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:38.499   492   538 I Proximity: distance = 2
+10-14 17:57:38.501  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:38.703   492   538 I Proximity: distance = 2
+10-14 17:57:38.707  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:38.773  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1240.0,839.0)
+10-14 17:57:38.776   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:89 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:89
+10-14 17:57:38.777   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:38.780  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1234.1241,846.88184)
+10-14 17:57:38.781   500   576 I libPowerHal: [perfLockRel] hdl:89, idx:0
+10-14 17:57:38.781   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:38.783  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:38.846  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), PointerEventDispatcher0 (server),
+10-14 17:57:38.849  1021  1361 D MediaSessionService: dispatchVolumeKeyEvent, pkg=com.yangcong345.eye.protection, opPkg=com.yangcong345.eye.protection, pid=3178, uid=10113, asSystem=true, event=KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=115393000000, downTime=115393000000, deviceId=-1, source=0x0, displayId=-1 }, stream=-2147483648, musicOnly=false
+10-14 17:57:38.850  1021  1361 D MediaSessionService: Adjusting suggestedStream=-2147483648 by -1. flags=4113, preferSuggestedStream=false, session=null
+10-14 17:57:38.852  1021  1361 D MediaSessionService: dispatchVolumeKeyEvent, pkg=com.yangcong345.eye.protection, opPkg=com.yangcong345.eye.protection, pid=3178, uid=10113, asSystem=true, event=KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=115393000000, downTime=115393000000, deviceId=-1, source=0x0, displayId=-1 }, stream=-2147483648, musicOnly=false
+10-14 17:57:38.852  1021  1361 D MediaSessionService: Adjusting suggestedStream=-2147483648 by 0. flags=4116, preferSuggestedStream=false, session=null
+10-14 17:57:38.853  1910  2549 I sysui_multi_action: [757,210,758,4,759,3]
+10-14 17:57:38.853  1910  2549 I vol.Events: writeEvent active_stream_changed STREAM_MUSIC
+10-14 17:57:38.856  1910  2549 I sysui_multi_action: [757,211,758,4,759,3]
+10-14 17:57:38.856  1910  2549 I vol.Events: writeEvent key STREAM_MUSIC 12
+10-14 17:57:38.862   510   607 D SurfaceFlinger: [SF client] NEW(0xb400007a7606b7b0) for (1910:com.android.systemui)
+10-14 17:57:38.864  1910  1910 D VRI[VolumeDialogImpl]: hardware acceleration = true, forceHwAccelerated = false
+10-14 17:57:38.869  1021  3533 D CoreBackPreview: Window{6d9e787 u0 VolumeDialogImpl}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@9f142dd, mPriority=0}
+10-14 17:57:38.870  1910  1910 D InputTransport: Create ARC handle: 0xb400006e2c43f660
+10-14 17:57:38.872  1910  1910 I sysui_multi_action: [757,207,758,1]
+10-14 17:57:38.872  1910  1910 I sysui_multi_action: [757,804,799,volume_from_keyguard,801,0,802,1]
+10-14 17:57:38.872  1910  1910 I vol.Events: writeEvent show_dialog volume_changed keyguard=false
+10-14 17:57:38.875   510   888 I BufferQueueDebug: [VolumeDialogImpl#203](this:0xb400007b66218928,id:-1,api:0,p:-1,c:-1) BufferQueue core=(510:/system/bin/surfaceflinger)
+10-14 17:57:38.879   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:1.213025,dur:1648.77,max:1632.89,min:15.88
+10-14 17:57:38.884  1910  1910 D BufferQueueConsumer: [](id:7760000000b,api:0,p:-1,c:1910) connect: controlledByApp=false
+10-14 17:57:38.901  1910  2302 D BLASTBufferQueue: [VRI[VolumeDialogImpl]#11](f:0,a:1) acquireNextBufferLocked size=284x740 mFrameNumber=1 applyTransaction=true mTimestamp=115449780544(auto) mPendingTransactions.size=0 graphicBufferId=8203387535446 transform=7
+10-14 17:57:38.904  1910  2302 W Parcel  : Expecting binder but got null!
+10-14 17:57:38.906   492   538 I Proximity: distance = 2
+10-14 17:57:38.908  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:38.909   510   510 D BufferStateLayer: VolumeDialogImpl#203 setBuffer frameId=1, bufferId=8203387535446 fenceId=195, w= 740, h=284
+10-14 17:57:38.948  3085  3085 D onAccessibilityEvent111: EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 115438; PackageName: com.android.systemui; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.android.systemui.volume.VolumeDialogImpl$CustomDialog; Text: [媒体音量控件]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: false; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+10-14 17:57:38.959  3085  3085 D onAccessibilityEvent122: source  android.view.accessibility.AccessibilityNodeInfo@80006cd9; boundsInParent: Rect(0, 0 - 156, 612); boundsInScreen: Rect(1764, 293 - 1920, 905); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-14 17:57:38.962   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:38.962   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:38.969   707   707 I thermal_repeater: socket -1
+10-14 17:57:39.019  1762  1762 I WifiHAL : Get link layer stats
+10-14 17:57:39.019  1762  1762 I WifiHAL : GetLinkStatsCommand::create
+10-14 17:57:39.019  1762  1762 D android.hardware.wifi@1.0-service-lazy: WifiRequest::create vendor command to iface 11, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-14 17:57:39.019  1762  1762 I android.hardware.wifi@1.0-service-lazy: WifiCommand::requestResponse err=-14
+10-14 17:57:39.019  1762  1762 I WifiHAL : wifi_get_link_stats: result=-1
+10-14 17:57:39.020  2192  2192 D SmsRIL  : resetProxyAndRequestList
+10-14 17:57:39.021  1021  1508 E WifiVendorHal: getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-14 17:57:39.021   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/slot1 in the VINTF manifest.
+10-14 17:57:39.023   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/imsSlot1 in either framework or device VINTF manifest.
+10-14 17:57:39.024  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:39.024  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy: is empty
+10-14 17:57:39.039  1910  1910 D WifiSignalController: isWifi6: false,wifiVisible: true
+10-14 17:57:39.039  1910  1910 D WifiSignalController: iconId: 17302904
+10-14 17:57:39.085   510   510 I BufferQueueProducer: [StatusBar#70](this:0xb400007b661fc188,id:-1,api:0,p:-1,c:510) queueBuffer: fps=1.47 dur=8174.96 max=7997.55 min=15.44
+10-14 17:57:39.115   492   538 I Proximity: distance = 2
+10-14 17:57:39.117  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:39.160   715   750 D AAL     : 10-14 05:57:39.130 BL= 448,ESS= 256, 10-14 05:57:39.144 BL= 449,ESS= 256,
+10-14 17:57:39.200  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(900.0,98.0)
+10-14 17:57:39.202  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server),
+10-14 17:57:39.203   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:90 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:90
+10-14 17:57:39.203   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:39.203  1910  1910 I sysui_multi_action: [757,207,758,2]
+10-14 17:57:39.204  1910  1910 I vol.Events: writeEvent dismiss_dialog touch_outside
+10-14 17:57:39.210  1910  2549 I sysui_multi_action: [757,210,758,4,759,-1]
+10-14 17:57:39.210  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(889.49365,82.047745)
+10-14 17:57:39.211  1910  2549 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+10-14 17:57:39.216   500   576 I libPowerHal: [perfLockRel] hdl:90, idx:0
+10-14 17:57:39.216  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:39.217   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:39.319   492   538 I Proximity: distance = 2
+10-14 17:57:39.321  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:39.523  1021  1361 D CoreBackPreview: Window{6d9e787 u0 VolumeDialogImpl}: Setting back callback null
+10-14 17:57:39.527   492   538 I Proximity: distance = 2
+10-14 17:57:39.529  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:39.536  1910  1910 D View    : [Warning] assignParent to null: this = DecorView@8562b9[VolumeDialogImpl]
+10-14 17:57:39.536  1910  1910 D BLASTBufferQueue: [VRI[VolumeDialogImpl]#11](f:0,a:1) destructor()
+10-14 17:57:39.536  1910  1910 D BufferQueueConsumer: [VRI[VolumeDialogImpl]#11(BLAST Consumer)11](id:7760000000b,api:0,p:-1,c:1910) disconnect
+10-14 17:57:39.539  1021  1361 W InputManager-JNI: Input channel object '6d9e787 VolumeDialogImpl (client)' was disposed without first being removed with the input manager!
+10-14 17:57:39.541  1021  1361 D WindowManager: setParent old=WindowToken{a87ebc6 type=2020 android.os.BinderProxy@f9c6da1},new=null,this window=Window{6d9e787 u0 VolumeDialogImpl},callers=com.android.server.wm.WindowContainer.removeChild:772 com.android.server.wm.WindowContainer.removeImmediately:828 com.android.server.wm.WindowState.removeImmediately:2514 com.android.server.wm.WindowState.removeIfPossible:2704 com.android.server.wm.WindowState.removeIfPossible:2562 com.android.server.wm.WindowManagerService.removeWindow:2077
+10-14 17:57:39.542  1021  1361 D WindowManager: setParent old=Leaf:18:23@188491413,new=null,this window=WindowToken{a87ebc6 type=2020 android.os.BinderProxy@f9c6da1},callers=com.android.server.wm.WindowContainer.removeChild:772 com.android.server.wm.WindowContainer.removeImmediately:828 com.android.server.wm.WindowToken.setExiting:235 com.android.server.wm.DisplayContent.removeWindowToken:1249 com.android.server.wm.WindowToken.removeImmediately:346 com.android.server.wm.WindowManagerService.postWindowRemoveCleanupLocked:2120
+10-14 17:57:39.550  1910  1910 D InputTransport: Destroy ARC handle: 0xb400006e2c43f660
+10-14 17:57:39.557   510   510 I BufferQueueDebug: [VolumeDialogImpl#203](this:0xb400007b66218928,id:-1,api:0,p:-1,c:510) onDestructor()
+10-14 17:57:39.731   492   538 I Proximity: distance = 2
+10-14 17:57:39.733  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:39.785  5215  5215 I Monkey  : :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+10-14 17:57:39.792  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), PointerEventDispatcher0 (server),
+10-14 17:57:39.794  5215  5215 I Monkey  : :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+10-14 17:57:39.797  1021  3533 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10113) doesn't own the focused window nor none of the previously interacted window
+10-14 17:57:39.803  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:39.828   510   510 I BufferQueueProducer: [com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity#164](this:0xb400007b66240708,id:-1,api:0,p:-1,c:510) queueBuffer: fps=0.77 dur=2598.53 max=2582.05 min=16.48
+10-14 17:57:39.880   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:44.989281,dur:1000.24,max:268.99,min:13.65
+10-14 17:57:39.935   492   538 I Proximity: distance = 2
+10-14 17:57:39.937  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:39.962   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:61
+10-14 17:57:39.963   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:64
+10-14 17:57:39.963   500   565 I libPowerHal: [updateFPS] pid(3178) : -1 => 60
+10-14 17:57:39.963   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:5, pid:3178, uid:10113, fps:60
+10-14 17:57:39.964   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:39.964   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:40.050   715   750 D AAL     : 10-14 05:57:39.936 BL= 448,ESS= 256, 10-14 05:57:39.953 BL= 449,ESS= 256, 10-14 05:57:39.968 BL= 448,ESS= 256, 10-14 05:57:40.034 BL= 447,ESS= 256, 10-14 05:57:40.050 BL= 446,ESS= 256,
+10-14 17:57:40.139   492   538 I Proximity: distance = 2
+10-14 17:57:40.141  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:40.218  2929  2929 I Monkey  : :Sending Key (ACTION_DOWN): 16    // KEYCODE_9
+10-14 17:57:40.223  2929  2929 I Monkey  : :Sending Key (ACTION_UP): 16    // KEYCODE_9
+10-14 17:57:40.227   715   750 D AAL     : 10-14 05:57:40.081 BL= 445,ESS= 256, 10-14 05:57:40.113 BL= 444,ESS= 256, 10-14 05:57:40.162 BL= 443,ESS= 256, 10-14 05:57:40.194 BL= 442,ESS= 256, 10-14 05:57:40.227 BL= 441,ESS= 256,
+10-14 17:57:40.228  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:40.343   492   538 I Proximity: distance = 2
+10-14 17:57:40.345  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:40.421   715   750 D AAL     : 10-14 05:57:40.275 BL= 440,ESS= 256, 10-14 05:57:40.307 BL= 439,ESS= 256, 10-14 05:57:40.340 BL= 438,ESS= 256, 10-14 05:57:40.372 BL= 437,ESS= 256, 10-14 05:57:40.421 BL= 436,ESS= 256,
+10-14 17:57:40.547   492   538 I Proximity: distance = 2
+10-14 17:57:40.549  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:40.598   715   750 D AAL     : 10-14 05:57:40.453 BL= 435,ESS= 256, 10-14 05:57:40.485 BL= 434,ESS= 256, 10-14 05:57:40.534 BL= 433,ESS= 256, 10-14 05:57:40.566 BL= 432,ESS= 256, 10-14 05:57:40.598 BL= 431,ESS= 256,
+10-14 17:57:40.750   492   538 I Proximity: distance = 2
+10-14 17:57:40.753  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:40.776   715   750 D AAL     : 10-14 05:57:40.631 BL= 430,ESS= 256, 10-14 05:57:40.679 BL= 429,ESS= 256, 10-14 05:57:40.711 BL= 428,ESS= 256, 10-14 05:57:40.744 BL= 427,ESS= 256, 10-14 05:57:40.776 BL= 426,ESS= 256,
+10-14 17:57:40.806  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1274.0,851.0)
+10-14 17:57:40.808  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server),
+10-14 17:57:40.810   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:91 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:91
+10-14 17:57:40.811   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:40.811  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1271.3107,860.7578)
+10-14 17:57:40.814   500   576 I libPowerHal: [perfLockRel] hdl:91, idx:0
+10-14 17:57:40.814   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:40.815  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:40.841   510   510 I BufferQueueProducer: [com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity#164](this:0xb400007b66240708,id:-1,api:0,p:-1,c:510) queueBuffer: fps=6.91 dur=1013.41 max=914.03 min=15.62
+10-14 17:57:40.954   715   750 D AAL     : 10-14 05:57:40.824 BL= 425,ESS= 256, 10-14 05:57:40.856 BL= 424,ESS= 256, 10-14 05:57:40.872 BL= 425,ESS= 256, 10-14 05:57:40.905 BL= 426,ESS= 256, 10-14 05:57:40.954 BL= 427,ESS= 256,
+10-14 17:57:40.955   492   538 I Proximity: distance = 2
+10-14 17:57:40.957  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:40.963   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:40.963   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:40.963   500   565 I libPowerHal: [updateFPS] pid(3178) : 60 => -1
+10-14 17:57:40.964   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:5, pid:3178, uid:10113, fps:-1
+10-14 17:57:40.964   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:40.964   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:41.131   715   750 D AAL     : 10-14 05:57:40.987 BL= 428,ESS= 256, 10-14 05:57:41.019 BL= 429,ESS= 256, 10-14 05:57:41.051 BL= 430,ESS= 256, 10-14 05:57:41.099 BL= 431,ESS= 256, 10-14 05:57:41.131 BL= 432,ESS= 256,
+10-14 17:57:41.159   492   538 I Proximity: distance = 2
+10-14 17:57:41.161  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:41.229  2929  2929 I Monkey  : :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.eye.protection/.LauncherActivity;end
+10-14 17:57:41.234  1021  1074 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.yangcong345.eye.protection/.LauncherActivity} from uid 2000
+10-14 17:57:41.236  5215  5251 I Monkey  :     // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.eye.protection/.LauncherActivity } in package com.yangcong345.eye.protection
+10-14 17:57:41.239  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:41.309   715   750 D AAL     : 10-14 05:57:41.164 BL= 433,ESS= 256, 10-14 05:57:41.196 BL= 434,ESS= 256, 10-14 05:57:41.244 BL= 435,ESS= 256, 10-14 05:57:41.277 BL= 436,ESS= 256, 10-14 05:57:41.309 BL= 437,ESS= 256,
+10-14 17:57:41.366   492   538 I Proximity: distance = 2
+10-14 17:57:41.367  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:41.503   715   750 D AAL     : 10-14 05:57:41.357 BL= 438,ESS= 256, 10-14 05:57:41.389 BL= 439,ESS= 256, 10-14 05:57:41.422 BL= 440,ESS= 256, 10-14 05:57:41.454 BL= 441,ESS= 256, 10-14 05:57:41.503 BL= 442,ESS= 256,
+10-14 17:57:41.507  3178  4443 I .eye.protection: Explicit concurrent copying GC freed 7422(379KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 4965KB/9930KB, paused 95us,80us total 60.395ms
+10-14 17:57:41.571   492   538 I Proximity: distance = 2
+10-14 17:57:41.572  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:41.680   715   750 D AAL     : 10-14 05:57:41.535 BL= 443,ESS= 256, 10-14 05:57:41.567 BL= 444,ESS= 256, 10-14 05:57:41.616 BL= 445,ESS= 256, 10-14 05:57:41.648 BL= 446,ESS= 256, 10-14 05:57:41.680 BL= 447,ESS= 256,
+10-14 17:57:41.774  2192  2192 D CapRIL  : resetProxyAndRequestList
+10-14 17:57:41.775   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-14 17:57:41.775   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:41.776  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:41.776   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:41.777  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV2_0: java.util.NoSuchElementException
+10-14 17:57:41.777  2192  2192 E CapRIL  : getMtkRadioExCapProxy: is empty
+10-14 17:57:41.777   715   750 D AAL     : 10-14 05:57:41.712 BL= 448,ESS= 256, 10-14 05:57:41.761 BL= 449,ESS= 256,
+10-14 17:57:41.778   492   538 I Proximity: distance = 2
+10-14 17:57:41.779  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:41.816  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1715.0,541.0)
+10-14 17:57:41.819   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:92 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:92
+10-14 17:57:41.820   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:41.820  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1706.7522,539.0342)
+10-14 17:57:41.822   500   576 I libPowerHal: [perfLockRel] hdl:92, idx:0
+10-14 17:57:41.822  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:41.822   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:41.963   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:41.963   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:41.983   492   538 I Proximity: distance = 2
+10-14 17:57:41.984  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:42.042  1762  1762 I WifiHAL : Get link layer stats
+10-14 17:57:42.042  1762  1762 I WifiHAL : GetLinkStatsCommand::create
+10-14 17:57:42.042  1762  1762 D android.hardware.wifi@1.0-service-lazy: WifiRequest::create vendor command to iface 11, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-14 17:57:42.043  1762  1762 I android.hardware.wifi@1.0-service-lazy: WifiCommand::requestResponse err=-14
+10-14 17:57:42.043  1762  1762 I WifiHAL : wifi_get_link_stats: result=-1
+10-14 17:57:42.044  1021  1508 E WifiVendorHal: getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-14 17:57:42.186   492   538 I Proximity: distance = 2
+10-14 17:57:42.188  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:42.240  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1563.0,753.0)
+10-14 17:57:42.241   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:93 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:93
+10-14 17:57:42.242   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:42.243  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(1560.348,759.09955)
+10-14 17:57:42.245   500   576 I libPowerHal: [perfLockRel] hdl:93, idx:0
+10-14 17:57:42.245   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:42.246  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:42.391   492   538 I Proximity: distance = 2
+10-14 17:57:42.393  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:42.594   492   538 I Proximity: distance = 2
+10-14 17:57:42.595  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:42.799   492   538 I Proximity: distance = 2
+10-14 17:57:42.800  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:42.823  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1241.0,33.0)
+10-14 17:57:42.825  1021  1441 I input_interaction: Interaction with: d664d53 StatusBar (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server),
+10-14 17:57:42.826   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:94 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:94
+10-14 17:57:42.827   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:42.828  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1259.8517,41.650173)
+10-14 17:57:42.829   500   576 I libPowerHal: [perfLockRel] hdl:94, idx:0
+10-14 17:57:42.829   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:42.829  1910  1910 I sysui_multi_action: [757,803,799,panel_open,802,1]
+10-14 17:57:42.830  1910  1910 I sysui_multi_action: [757,1328,758,4,1326,64,1327,2,1329,1]
+10-14 17:57:42.831  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:42.883  1021  1823 I am_meminfo: [556408832,3120558080,4096,300969984,598359040]
+10-14 17:57:42.963   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:42.963   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:42.972  3085  3560 D AppDurationManager: timer===90
+10-14 17:57:43.003   492   538 I Proximity: distance = 2
+10-14 17:57:43.005  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:43.025  2192  2192 D SmsRIL  : resetProxyAndRequestList
+10-14 17:57:43.026   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/slot1 in the VINTF manifest.
+10-14 17:57:43.028   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/imsSlot1 in either framework or device VINTF manifest.
+10-14 17:57:43.029  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:43.030  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy: is empty
+10-14 17:57:43.207   492   538 I Proximity: distance = 2
+10-14 17:57:43.209  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:43.248  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1489.0,1033.0)
+10-14 17:57:43.250  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server),
+10-14 17:57:43.250   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:95 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:95
+10-14 17:57:43.251   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:43.251  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(1476.3285,1023.16473)
+10-14 17:57:43.252   500   576 I libPowerHal: [perfLockRel] hdl:95, idx:0
+10-14 17:57:43.253   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:43.253  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:43.411   492   538 I Proximity: distance = 2
+10-14 17:57:43.412  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:43.495  1021  1074 I am_meminfo: [556457984,3120893952,4096,300814336,598536192]
+10-14 17:57:43.615   492   538 I Proximity: distance = 2
+10-14 17:57:43.617  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:43.745  3085  3560 D YCLockActivity: 【5】累计已使用的临时使用时长===0 ,临时限制时长tempDurationLimit:-1
+10-14 17:57:43.746  3085  3560 D PadDurationManager: 当前平板使用时间===20080
+10-14 17:57:43.819   492   538 I Proximity: distance = 2
+10-14 17:57:43.821  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:43.832  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1284.0,129.0)
+10-14 17:57:43.835  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1283.971,129.39507)
+10-14 17:57:43.835   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:96 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:96
+10-14 17:57:43.837   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:43.838   500   576 I libPowerHal: [perfLockRel] hdl:96, idx:0
+10-14 17:57:43.839   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:43.839  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:43.964   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:43.964   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:43.970   707   707 I thermal_repeater: socket -1
+10-14 17:57:44.022   492   538 I Proximity: distance = 2
+10-14 17:57:44.024  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:44.124  3940  4919 W 5.android.phone: Cleared Reference was only reachable from finalizer (only reported once)
+10-14 17:57:44.129  3940  4919 I 5.android.phone: Explicit concurrent copying GC freed 34255(1926KB) AllocSpace objects, 18(616KB) LOS objects, 50% free, 14MB/28MB, paused 151us,105us total 83.553ms
+10-14 17:57:44.227   492   538 I Proximity: distance = 2
+10-14 17:57:44.229  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:44.254  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1184.0,346.0)
+10-14 17:57:44.257   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:97 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:97
+10-14 17:57:44.257  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(1183.7579,350.4617)
+10-14 17:57:44.259   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:44.259   500   576 I libPowerHal: [perfLockRel] hdl:97, idx:0
+10-14 17:57:44.260   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:44.261  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:44.431   492   538 I Proximity: distance = 2
+10-14 17:57:44.433  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:44.635   492   538 I Proximity: distance = 2
+10-14 17:57:44.638  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:44.839   492   538 I Proximity: distance = 2
+10-14 17:57:44.840  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1179.0,1115.0)
+10-14 17:57:44.841  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:44.844  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1180.5485,1106.6091)
+10-14 17:57:44.846   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:98 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:98
+10-14 17:57:44.847   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:44.848  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:44.848   500   576 I libPowerHal: [perfLockRel] hdl:98, idx:0
+10-14 17:57:44.849   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:44.964   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:44.964   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:45.043   492   538 I Proximity: distance = 2
+10-14 17:57:45.045  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:45.069  1762  1762 I WifiHAL : Get link layer stats
+10-14 17:57:45.070  1762  1762 I WifiHAL : GetLinkStatsCommand::create
+10-14 17:57:45.070  1762  1762 D android.hardware.wifi@1.0-service-lazy: WifiRequest::create vendor command to iface 11, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-14 17:57:45.070  1762  1762 I android.hardware.wifi@1.0-service-lazy: WifiCommand::requestResponse err=-14
+10-14 17:57:45.070  1762  1762 I WifiHAL : wifi_get_link_stats: result=-1
+10-14 17:57:45.072  1021  1508 E WifiVendorHal: getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-14 17:57:45.088  1910  1910 D WifiSignalController: isWifi6: false,wifiVisible: true
+10-14 17:57:45.089  1910  1910 D WifiSignalController: iconId: 17302904
+10-14 17:57:45.128   510   510 I BufferQueueProducer: [StatusBar#70](this:0xb400007b661fc188,id:-1,api:0,p:-1,c:510) queueBuffer: fps=0.17 dur=6042.37 max=6042.37 min=6042.37
+10-14 17:57:45.131   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.952113,dur:5251.48,max:4288.89,min:15.99
+10-14 17:57:45.246   492   538 I Proximity: distance = 2
+10-14 17:57:45.247  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:45.262  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1256.0,818.0)
+10-14 17:57:45.263   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:99 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:99
+10-14 17:57:45.264   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:45.265  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(1249.8728,804.028)
+10-14 17:57:45.266   500   576 I libPowerHal: [perfLockRel] hdl:99, idx:0
+10-14 17:57:45.266   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:45.268  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:45.451   492   538 I Proximity: distance = 2
+10-14 17:57:45.452  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:45.655   492   538 I Proximity: distance = 2
+10-14 17:57:45.657  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:45.778  2192  2192 D CapRIL  : resetProxyAndRequestList
+10-14 17:57:45.779   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.modem.IMtkRadioExModem/slot1 in the VINTF manifest.
+10-14 17:57:45.781   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:45.782  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:45.783   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@2.0::IMtkRadioEx/mtkCap1 in either framework or device VINTF manifest.
+10-14 17:57:45.784  2192  2192 E CapRIL  : getMtkRadioExCapProxy getServiceV2_0: java.util.NoSuchElementException
+10-14 17:57:45.784  2192  2192 E CapRIL  : getMtkRadioExCapProxy: is empty
+10-14 17:57:45.849  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1357.0,897.0)
+10-14 17:57:45.852   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:100 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:100
+10-14 17:57:45.853   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:45.853  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(1355.7937,885.64685)
+10-14 17:57:45.855  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:45.856   500   576 I libPowerHal: [perfLockRel] hdl:100, idx:0
+10-14 17:57:45.857   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:45.862   492   538 I Proximity: distance = 2
+10-14 17:57:45.864  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:45.964   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:45.965   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:46.067   492   538 I Proximity: distance = 2
+10-14 17:57:46.069  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:46.270  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(1266.0,270.0)
+10-14 17:57:46.271   492   538 I Proximity: distance = 2
+10-14 17:57:46.273   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:101 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:101
+10-14 17:57:46.273  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:46.274   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:46.275  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(1289.4053,287.19244)
+10-14 17:57:46.276   500   576 I libPowerHal: [perfLockRel] hdl:101, idx:0
+10-14 17:57:46.277   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:46.277  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:46.465  3178  4443 I .eye.protection: Explicit concurrent copying GC freed 6092(310KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 4898KB/9797KB, paused 59us,46us total 27.364ms
+10-14 17:57:46.475   492   538 I Proximity: distance = 2
+10-14 17:57:46.477  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:46.679   492   538 I Proximity: distance = 2
+10-14 17:57:46.681  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:46.856  5215  5215 I Monkey  : :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+10-14 17:57:46.859  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), PointerEventDispatcher0 (server),
+10-14 17:57:46.861  5215  5215 I Monkey  : :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+10-14 17:57:46.862  1021  1074 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10113) doesn't own the focused window nor none of the previously interacted window
+10-14 17:57:46.867  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:46.882   492   538 I Proximity: distance = 2
+10-14 17:57:46.884  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:46.905   510   510 I BufferQueueProducer: [com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity#164](this:0xb400007b66240708,id:-1,api:0,p:-1,c:510) queueBuffer: fps=0.16 dur=6064.15 max=6064.15 min=6064.15
+10-14 17:57:46.908   485   843 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.562892,dur:1776.54,max:1776.54,min:1776.54
+10-14 17:57:46.965   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:46.966   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:63
+10-14 17:57:46.966   500   565 I libPowerHal: [updateFPS] pid(3178) : -1 => 60
+10-14 17:57:46.967   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:5, pid:3178, uid:10113, fps:60
+10-14 17:57:46.968   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:46.968   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:47.030  2192  2192 D SmsRIL  : resetProxyAndRequestList
+10-14 17:57:47.031   368   368 I servicemanager: Could not find vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/slot1 in the VINTF manifest.
+10-14 17:57:47.033   369   369 I hwservicemanager: getTransport: Cannot find entry vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/imsSlot1 in either framework or device VINTF manifest.
+10-14 17:57:47.033  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy getServiceV3_0: java.util.NoSuchElementException
+10-14 17:57:47.033  2192  2192 E SmsRIL  : getMtkRadioExSmsProxy: is empty
+10-14 17:57:47.087   492   538 I Proximity: distance = 2
+10-14 17:57:47.089  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:47.173   715   750 D AAL     : 10-14 05:57:47.029 BL= 448,ESS= 256, 10-14 05:57:47.076 BL= 447,ESS= 256, 10-14 05:57:47.125 BL= 446,ESS= 256, 10-14 05:57:47.141 BL= 445,ESS= 256, 10-14 05:57:47.173 BL= 444,ESS= 256,
+10-14 17:57:47.279  2929  2929 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(19.0,418.0)
+10-14 17:57:47.281  1021  1441 I input_interaction: Interaction with: 69eccc1 com.yangcong345.eye.protection/com.yangcong345.eye.protection.pro.DetailMainActivity (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server),
+10-14 17:57:47.281   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:102 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:102
+10-14 17:57:47.283   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:47.285  2929  2929 I Monkey  : :Sending Touch (ACTION_UP): 0:(17.143688,413.8884)
+10-14 17:57:47.287   500   576 I libPowerHal: [perfLockRel] hdl:102, idx:0
+10-14 17:57:47.287  1910  1910 D ShellBackPreview: Finishing gesture with event action: 1
+10-14 17:57:47.287  1910  1910 D ShellBackPreview: onGestureFinished() mTriggerBack == false
+10-14 17:57:47.288   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:47.288  2929  2929 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:47.288   510   888 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-14 17:57:47.290   492   538 I Proximity: distance = 2
+10-14 17:57:47.292  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:47.350   715   750 D AAL     : 10-14 05:57:47.221 BL= 443,ESS= 256, 10-14 05:57:47.254 BL= 442,ESS= 256, 10-14 05:57:47.286 BL= 441,ESS= 256, 10-14 05:57:47.334 BL= 440,ESS= 256, 10-14 05:57:47.350 BL= 441,ESS= 256,
+10-14 17:57:47.495   492   538 I Proximity: distance = 2
+10-14 17:57:47.496  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:47.545   715   750 D AAL     : 10-14 05:57:47.400 BL= 442,ESS= 256, 10-14 05:57:47.432 BL= 443,ESS= 256, 10-14 05:57:47.464 BL= 444,ESS= 256, 10-14 05:57:47.512 BL= 445,ESS= 256, 10-14 05:57:47.545 BL= 446,ESS= 256,
+10-14 17:57:47.673   715   750 D AAL     : 10-14 05:57:47.577 BL= 447,ESS= 256, 10-14 05:57:47.609 BL= 448,ESS= 256, 10-14 05:57:47.658 BL= 449,ESS= 256,
+10-14 17:57:47.702   492   538 I Proximity: distance = 2
+10-14 17:57:47.705  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:47.868  5215  5215 I Monkey  : :Sending Touch (ACTION_DOWN): 0:(845.0,1018.0)
+10-14 17:57:47.872   500   576 I libPowerHal: [perfLockAcq] idx:0 hdl:103 hint:25 pid:500 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:103
+10-14 17:57:47.873   500   576 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-14 17:57:47.873  5215  5215 I Monkey  : :Sending Touch (ACTION_UP): 0:(855.71545,1017.2614)
+10-14 17:57:47.875   500   576 I libPowerHal: [perfLockRel] hdl:103, idx:0
+10-14 17:57:47.875   500   576 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-14 17:57:47.876  5215  5215 I Monkey  : Sleeping for 1000 milliseconds
+10-14 17:57:47.906   492   538 I Proximity: distance = 2
+10-14 17:57:47.908  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:47.965   500   565 I libPerfCtl: xgfGetFPS pid:1910 fps:-1
+10-14 17:57:47.965   500   565 I libPerfCtl: xgfGetFPS pid:3178 fps:-1
+10-14 17:57:47.965   500   565 I libPowerHal: [updateFPS] pid(3178) : 60 => -1
+10-14 17:57:47.966   500   576 I libPowerHal: [perfNotifyAppState] pack:com.yangcong345.eye.protection, act:com.yangcong345.eye.protection.pro.DetailMainActivity, state:5, pid:3178, uid:10113, fps:-1
+10-14 17:57:47.966   500   576 E UxUtility: notifyAppState error = NULL
+10-14 17:57:47.966   500   576 I TouchUtility: notifyAppState error = NULL
+10-14 17:57:48.091  1762  1762 I WifiHAL : Get link layer stats
+10-14 17:57:48.091  1762  1762 I WifiHAL : GetLinkStatsCommand::create
+10-14 17:57:48.091  1762  1762 D android.hardware.wifi@1.0-service-lazy: WifiRequest::create vendor command to iface 11, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-14 17:57:48.092  1762  1762 I android.hardware.wifi@1.0-service-lazy: WifiCommand::requestResponse err=-14
+10-14 17:57:48.092  1762  1762 I WifiHAL : wifi_get_link_stats: result=-1
+10-14 17:57:48.093  1021  1508 E WifiVendorHal: getWifiLinkLayerStats_1_5_Internal(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-14 17:57:48.115   492   538 I Proximity: distance = 2
+10-14 17:57:48.117  1021  1398 W SensorService: Failed to write wake lock handled
+10-14 17:57:48.257   489   489 I auditd  : type=1400 audit(0.0:5438): avc: denied { read } for comm="health@2.1-serv" name="online" dev="sysfs" ino=31776 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+10-14 17:57:48.257   489   489 I health@2.1-serv: type=1400 audit(0.0:5438): avc: denied { read } for name="online" dev="sysfs" ino=31776 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+10-14 17:57:48.257   489   489 I auditd  : type=1400 audit(0.0:5439): avc: denied { open } for comm="health@2.1-serv" path="/sys/devices/platform/1100f000.i2c3/i2c-3/3-001a/power_supply/sgm4154x-charger/online" dev="sysfs" ino=31776 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+10-14 17:57:48.257   489   489 I health@2.1-serv: type=1400 audit(0.0:5439): avc: denied { open } for path="/sys/devices/platform/1100f000.i2c3/i2c-3/3-001a/power_supply/sgm4154x-charger/online" dev="sysfs" ino=31776 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
